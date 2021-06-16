@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6e948d0a4baa46ffb990db927b63fdd3" Name="Diagram1">
+        <EntityTypeShape EntityType="EBSAModel.ANT_ANO_EDUCACAO" Width="1.5" PointX="3" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_ASSUNTO" Width="1.5" PointX="6" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_AUTORIA" Width="1.5" PointX="10.5" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_COLECAO" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_COMPOSICAO" Width="1.5" PointX="6" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_CONTEUDO_DISCIPLINAR" Width="1.5" PointX="6" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_DATA_ESPECIAL" Width="1.5" PointX="8.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_DISCIPLINA" Width="1.5" PointX="6" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_DISCIPLINA_TIPO" Width="1.5" PointX="2.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_DOCUMENTOSAUTORIA" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_ESPECIFICACAO_TECNICA" Width="1.5" PointX="8.25" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_FAIXA_ETARIA" Width="1.5" PointX="5.25" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_FichaTecnica" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_FUNCAO" Width="1.5" PointX="10.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_GENERO_TEXTUAL" Width="1.5" PointX="6" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_LOGS" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_MIDIA" Width="1.5" PointX="6" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_PRODUTO_ASSUNTO" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_PRODUTO_DATAESPECIAL" Width="1.5" PointX="10.5" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_PRODUTO_DOCUMENTO" Width="1.5" PointX="16.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_PRODUTO_ESPTECNICA" Width="1.5" PointX="10.5" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_PRODUTO_FUNCAO" Width="1.5" PointX="12.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_PRODUTO_TEMA" Width="1.5" PointX="12.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_PRODUTO_TEMATRANS" Width="1.5" PointX="13.5" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_TEMA" Width="1.5" PointX="6" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_TIPO" Width="1.5" PointX="6" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_TIPO_LOG" Width="1.5" PointX="5.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_TIPO_SISTEMA" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.BKP_TB_PERMISSAO_REQUISICAO" Width="1.5" PointX="22.5" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.CARGO" Width="1.5" PointX="18" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.Convite_Consultor" Width="1.5" PointX="2.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.Convites_Solicitados_Consultor" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ESTADO" Width="1.5" PointX="15.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.FICHATECNICA_BKP" Width="1.5" PointX="10.5" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.FILIAL" Width="1.5" PointX="18" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.Flipbook_Consultor" Width="1.5" PointX="0.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.Flipbook_Consultor_bkp" Width="1.5" PointX="24.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.GERENTE_SUPERVISOR_REGIAO" Width="1.5" PointX="22.5" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.GRUPO" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.HISTORICO_INTEGRACAO_PROTHEUS" Width="1.5" PointX="0.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.INTEGRACAO_ADMPORTAL_CONSULTOR" Width="1.5" PointX="2.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.Log_Acesso_Consultor" Width="1.5" PointX="27.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.LOG" Width="1.5" PointX="27.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.MENU" Width="1.5" PointX="21" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.MENU_GRUPO" Width="1.5" PointX="23.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.NIVEL" Width="1.5" PointX="18" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.PERIODO" Width="1.5" PointX="0.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.PESSOA" Width="1.5" PointX="2.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.PLATAFORMA" Width="1.5" PointX="3.75" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.PRODUTO" Width="1.5" PointX="25" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.PRODUTO_BKP" Width="1.5" PointX="8.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.Produto_Status" Width="1.5" PointX="29.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.RAMAIS_FAVORITOS" Width="1.5" PointX="29.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.REQUISICAO" Width="1.5" PointX="27.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.REQUISICAO_OBRA" Width="1.5" PointX="30" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.REQUISICAO_PARCELA" Width="1.5" PointX="30" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.REQUISICAO_SERVICO" Width="1.5" PointX="30" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.SEGMENTO" Width="1.5" PointX="0.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.SUPERVISOR_DIVULGADOR" Width="1.5" PointX="25.5" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.sysdiagram" Width="1.5" PointX="29.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_ABA_CADASTRO_PRODUTO" Width="1.5" PointX="23.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_CABECALHO_PAINEL_META" Width="1.5" PointX="15.75" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_CADERNO_PRODUTO" Width="1.5" PointX="29.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_CAMPO_ORIGEM" Width="1.5" PointX="4.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_CAPA_PRODUTO" Width="1.5" PointX="6.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_CARGO" Width="1.5" PointX="12.75" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_COLLECTION_ELVIS" Width="1.5" PointX="30" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_CONDICAO_COMERCIAL" Width="1.5" PointX="31.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_CONSULTOR_REGIAO" Width="1.5" PointX="17.25" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_CONTEUDO_PP" Width="1.5" PointX="0.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_CONTROLE_IMPRESSAO_PRODUTO" Width="1.5" PointX="31.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_ENCARTE_PRODUTO" Width="1.5" PointX="31.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_FILIAL" Width="1.5" PointX="12.75" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_GERENTE_SUPERVISOR" Width="1.5" PointX="17.25" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_GRUPO_PAINEL" Width="1.5" PointX="31.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_GRUPO_PROTHEUS" Width="1.5" PointX="31.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_HIERARQUIA_PAINEL" Width="1.5" PointX="32.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_HISTORICO_IMPRESSAO" Width="1.5" PointX="32.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_JSON_LOG_INTEGRACAO_PROTHEUS" Width="1.5" PointX="22.5" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_LINHA_PAINEL_META" Width="1.5" PointX="18" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_LIVRO_ELVIS" Width="1.5" PointX="27.75" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_META_ANUAL" Width="1.5" PointX="20.25" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_META_FINANCEIRA" Width="1.5" PointX="20.25" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_META_REAL" Width="1.5" PointX="20.25" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_MIDIA_PRODUTO" Width="1.5" PointX="32.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_MIOLO_PRODUTO" Width="1.5" PointX="32.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_ORIGEM" Width="1.5" PointX="22.75" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_ORIGEM_DADOS_PAINEL_META" Width="1.5" PointX="15.75" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_PARTE_LIVRO_ELVIS" Width="1.5" PointX="30" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_PERIODO_META" Width="1.5" PointX="13.5" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_PERMISSAO_REQUISICAO" Width="1.5" PointX="22.5" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_PLATAFORMA_MIDIA" Width="1.5" PointX="33.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_PREFERENCIAS_RELATORIO" Width="1.5" PointX="2.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_PRODUTO_EPUB" Width="1.5" PointX="33.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_PRODUTO_IMAGEM_CAPA" Width="1.5" PointX="33.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_REGIAO" Width="1.5" PointX="15" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_REGIAO_ATUACAO" Width="1.5" PointX="12.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_REGRA_ACESSO_ABA_CADASTRO_PRODUTO" Width="1.5" PointX="25.5" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_REGRA_ACESSO_MENU_CADASTRO_PRODUTO" Width="1.5" PointX="25.5" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_RESULTADO_PAGAMENTO_META" Width="1.5" PointX="33.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_SECAO" Width="1.5" PointX="27.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_SEGMENTO_PROTHEUS" Width="1.5" PointX="22.75" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_SELO_PROTHEUS" Width="1.5" PointX="22.75" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_SISTEMA_ORIGEM" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_STATUS_PAINEL" Width="1.5" PointX="18" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_SUPERVISOR_CONSULTOR" Width="1.5" PointX="17.25" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_TABELA_ORIGEM" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_TIPO_ESPEC" Width="1.5" PointX="33.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_TIPO_PRODUTO" Width="1.5" PointX="22.75" PointY="34.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_UNIDADE_MEDIDA" Width="1.5" PointX="22.75" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_UNIDADE_MEDIDA_PAINEL" Width="1.5" PointX="18" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_USUARIO_RM" Width="1.5" PointX="15" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_USUARIO_RM_INTEGRACAO" Width="1.5" PointX="33.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.USUARIO" Width="1.5" PointX="20.25" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.USUARIO_API_PRODUTO" Width="1.5" PointX="34.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.USUARIO_GRUPO" Width="1.5" PointX="4.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANO_EDUCACAO" Width="1.5" PointX="34.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_A_TIPO_SISTEMA" Width="1.5" PointX="6.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_PRODUTO" Width="1.5" PointX="8.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_T_AUTORIA" Width="1.5" PointX="34.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_T_COLECAO" Width="1.5" PointX="10.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_T_HISTORICO_INTEGRACAO_PROTHEUS" Width="1.5" PointX="34.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_T_PRODUTO_TEMATRANS" Width="1.5" PointX="29.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ANT_TIPO_ESPECIFICACAO" Width="1.5" PointX="10.5" PointY="32" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ASSUNTO" Width="1.5" PointX="12.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.AUTOR" Width="1.5" PointX="35.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.AUTORIA" Width="1.5" PointX="17.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.COLECAO" Width="1.5" PointX="35.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.COMPOSICAO" Width="1.5" PointX="19.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.CONTEUDO_DISCIPLINAR" Width="1.5" PointX="35.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.DATA_ESPECIAL" Width="1.5" PointX="35.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.DISCIPLINA" Width="1.5" PointX="35.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.DISCIPLINA_TIPO" Width="1.5" PointX="35.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.DOCUMENTOSAUTORIA" Width="1.5" PointX="35.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ENVIO_APROVACAO" Width="1.5" PointX="0.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ENVIO_OBRA_ELVIS" Width="1.5" PointX="12.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.ESPECIFICACAO_TECNICA" Width="1.5" PointX="36.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.FAIXA_ETARIA" Width="1.5" PointX="36.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.FASE_SERVICO" Width="1.5" PointX="14.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.FichaTecnica" Width="1.5" PointX="24.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.Flipbook_Acesso_Consultor" Width="1.5" PointX="36.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.FUNCAO" Width="1.5" PointX="36.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.GENERO_TEXTUAL" Width="1.5" PointX="26.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.LIVRO" Width="1.5" PointX="31.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.Log_Flipbook_Consultor" Width="1.5" PointX="33.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.LOGS_A" Width="1.5" PointX="35.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.MIDIA" Width="1.5" PointX="37.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.Planilha1_" Width="1.5" PointX="2.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.PRODUTO_ASSUNTO" Width="1.5" PointX="4.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.PRODUTO_BKP08012020" Width="1.5" PointX="37.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.PRODUTO_DATAESPECIAL" Width="1.5" PointX="37.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.PRODUTO_DOCUMENTO" Width="1.5" PointX="28.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.PRODUTO_ESPTECNICA" Width="1.5" PointX="37.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.PRODUTO_FUNCAO" Width="1.5" PointX="37.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.PRODUTO_TEMA" Width="1.5" PointX="37.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.PRODUTO_TEMATRANS" Width="1.5" PointX="38.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TB_RELATORIO_ELVIS" Width="1.5" PointX="38.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TEMA" Width="1.5" PointX="38.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TIPO" Width="1.5" PointX="19.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TIPO_ESPECIFICACAO" Width="1.5" PointX="39.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TIPO_LOG" Width="1.5" PointX="39.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TIPO_SISTEMA" Width="1.5" PointX="39.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EBSAModel.TMPDATAPRODUCT" Width="1.5" PointX="39.75" PointY="21.75" IsExpanded="true" />
+        <AssociationConnector Association="EBSAModel.FK_AEDU_SEGM" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_FETA_AEDU" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PROD_AEDU" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PROD_ASSU" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_AUTO_PROD" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PFUN_AUTO" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PROD_COMP" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PROD_CDIS" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PDES_DAES" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PROD_DISC" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PESP_ETEC" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_TESP_ETEC" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PFUN_FCAO" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PROD_GTEX" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_TIPO_LOG" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_MIDI_PLAT" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PROD_MIDI" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PDES_PROD" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PESP_PROD" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PTEM_PROD" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PTEM_TEMA" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PROD_TEMA" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PROD_TIPO" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_USUARIO_BKP" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_USUARIO_CARGO" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK__FILIAL__ID_ESTAD__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK__GERENTE_S__ID_ES__7A672E12" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK__SUPERVISO__ID_ES__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_FichaTecnica_PRODUTO" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK__USUARIO__ID_FILI__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK__GERENTE_S__ID_US__7B5B524B" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK__GERENTE_S__ID_US__7C4F7684" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK__GRUPO__ID_GRUP__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK__MENU__ID_MENU_PA__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK__MENU_GRUP__ID_ME__0EF836A4" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_MENI_REGRA_MENU" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_MENU_ABA" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_USUARIO_NIVEL" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_SEGMENTO_PROTHEUS" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_SELO" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PROD_ORIGEM" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PROD_TIPO_PRODUTO" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PROD_UNIDADE_MEDIA" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PROD_SEGM" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_OBRA_ID_REQUISICAO_IDREQ" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_REQUISICAO_PARCELA_REQUISICAO" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_SERVICO_ID_REQUISICAO_IDREQ" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK__SUPERVISO__ID_US__03F0984C" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK__SUPERVISO__ID_US__04E4BC85" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_ABA_REGRA_ABA" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_META" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_CARGO" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_LIVRO" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_CONSULTOR_2" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_REGIAO" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_FILIAL" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_GERENTE" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_SUPERVISOR" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_JSON_LOG_ID_USUARIO" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_ORIGEM" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_TB_META_ANUAL_TB_LINHA_PAINEL_META" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_TB_META_FINANCEIRA_TB_LINHA_PAINEL_META" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_TB_META_REAL_TB_LINHA_PAINEL_META" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_PARTE_ID_LIVRO" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_TB_META_ANUAL_TB_STATUS_PAINEL" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_TB_META_ANUAL_TB_UNIDADE_MEDIDA_PAINEL" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_TB_META_ANUAL_TB_USUARIO_RM" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_TB_META_FINANCEIRA_TB_STATUS_PAINEL" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_TB_META_FINANCEIRA_TB_USUARIO_RM" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_TB_META_REAL_TB_USUARIO_RM" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_PERIODO" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_USUARIO" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_REGIAO_ATUACAO" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_USUARIO_REGRA_ABA" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_USUARIO_REGRA_MENU" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_SISTEMA" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_CONSULTOR" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_SUPERVISOR_2" ManuallyRouted="false" />
+        <AssociationConnector Association="EBSAModel.FK_ID_TABELA" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

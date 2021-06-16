@@ -1,0 +1,2565 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EBSAModelStoreContainer" CdmEntityContainer="EBSAEntities">
+    <EntitySetMapping Name="ANT_ANO_EDUCACAO">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_ANO_EDUCACAO">
+        <MappingFragment StoreEntitySet="ANT_ANO_EDUCACAO">
+          <ScalarProperty Name="AEDU_ID" ColumnName="AEDU_ID" />
+          <ScalarProperty Name="AEDU_DESCRICAO" ColumnName="AEDU_DESCRICAO" />
+          <ScalarProperty Name="AEDU_SEGM" ColumnName="AEDU_SEGM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_ASSUNTO">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_ASSUNTO">
+        <MappingFragment StoreEntitySet="ANT_ASSUNTO">
+          <ScalarProperty Name="ASSU_ID" ColumnName="ASSU_ID" />
+          <ScalarProperty Name="ASSU_DESCRICAO" ColumnName="ASSU_DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_AUTORIA">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_AUTORIA">
+        <MappingFragment StoreEntitySet="ANT_AUTORIA">
+          <ScalarProperty Name="AUTO_ID" ColumnName="AUTO_ID" />
+          <ScalarProperty Name="AUTO_NOMECON" ColumnName="AUTO_NOMECON" />
+          <ScalarProperty Name="AUTO_NOMECAPA" ColumnName="AUTO_NOMECAPA" />
+          <ScalarProperty Name="AUTO_PFUN" ColumnName="AUTO_PFUN" />
+          <ScalarProperty Name="AUTO_DATALIBERA" ColumnName="AUTO_DATALIBERA" />
+          <ScalarProperty Name="AUTO_DATAVCTO" ColumnName="AUTO_DATAVCTO" />
+          <ScalarProperty Name="AUTO_RENOVAUTO" ColumnName="AUTO_RENOVAUTO" />
+          <ScalarProperty Name="AUTO_QTDEMESES" ColumnName="AUTO_QTDEMESES" />
+          <ScalarProperty Name="AUTO_PCRECEBDA" ColumnName="AUTO_PCRECEBDA" />
+          <ScalarProperty Name="AUTO_REPASSE" ColumnName="AUTO_REPASSE" />
+          <ScalarProperty Name="AUTO_DATALIMITE" ColumnName="AUTO_DATALIMITE" />
+          <ScalarProperty Name="AUTO_PROD" ColumnName="AUTO_PROD" />
+          <ScalarProperty Name="AUTO_NACIONALIDADE" ColumnName="AUTO_NACIONALIDADE" />
+          <ScalarProperty Name="AUTO_NATURALIDADE" ColumnName="AUTO_NATURALIDADE" />
+          <ScalarProperty Name="AUTO_REPARTEIMP" ColumnName="AUTO_REPARTEIMP" />
+          <ScalarProperty Name="AUTO_REPARTEREIMP" ColumnName="AUTO_REPARTEREIMP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_COLECAO">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_COLECAO">
+        <MappingFragment StoreEntitySet="ANT_COLECAO">
+          <ScalarProperty Name="COLE_ID" ColumnName="COLE_ID" />
+          <ScalarProperty Name="COLE_DESCRICAO" ColumnName="COLE_DESCRICAO" />
+          <ScalarProperty Name="COLE_TIPO" ColumnName="COLE_TIPO" />
+          <ScalarProperty Name="COLE_SEGM" ColumnName="COLE_SEGM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_COMPOSICAO">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_COMPOSICAO">
+        <MappingFragment StoreEntitySet="ANT_COMPOSICAO">
+          <ScalarProperty Name="COMP_ID" ColumnName="COMP_ID" />
+          <ScalarProperty Name="COMP_DESCRICAO" ColumnName="COMP_DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_CONTEUDO_DISCIPLINAR">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_CONTEUDO_DISCIPLINAR">
+        <MappingFragment StoreEntitySet="ANT_CONTEUDO_DISCIPLINAR">
+          <ScalarProperty Name="CDIS_ID" ColumnName="CDIS_ID" />
+          <ScalarProperty Name="CDIS_DESCRICAO" ColumnName="CDIS_DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_DATA_ESPECIAL">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_DATA_ESPECIAL">
+        <MappingFragment StoreEntitySet="ANT_DATA_ESPECIAL">
+          <ScalarProperty Name="DAES_ID" ColumnName="DAES_ID" />
+          <ScalarProperty Name="DAES_DIA" ColumnName="DAES_DIA" />
+          <ScalarProperty Name="DAES_DESCRICAO" ColumnName="DAES_DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_DISCIPLINA">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_DISCIPLINA">
+        <MappingFragment StoreEntitySet="ANT_DISCIPLINA">
+          <ScalarProperty Name="DISC_ID" ColumnName="DISC_ID" />
+          <ScalarProperty Name="DISC_NOME" ColumnName="DISC_NOME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_DISCIPLINA_TIPO">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_DISCIPLINA_TIPO">
+        <MappingFragment StoreEntitySet="ANT_DISCIPLINA_TIPO">
+          <ScalarProperty Name="DTIP_ID" ColumnName="DTIP_ID" />
+          <ScalarProperty Name="DTIP_DISC" ColumnName="DTIP_DISC" />
+          <ScalarProperty Name="DTIP_TIPO" ColumnName="DTIP_TIPO" />
+          <ScalarProperty Name="DTIP_SEGM" ColumnName="DTIP_SEGM" />
+          <ScalarProperty Name="DTIP_AEDU" ColumnName="DTIP_AEDU" />
+          <ScalarProperty Name="DTIP_COMP" ColumnName="DTIP_COMP" />
+          <ScalarProperty Name="DTIP_SEQU" ColumnName="DTIP_SEQU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_DOCUMENTOSAUTORIA">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_DOCUMENTOSAUTORIA">
+        <MappingFragment StoreEntitySet="ANT_DOCUMENTOSAUTORIA">
+          <ScalarProperty Name="DOC_ID" ColumnName="DOC_ID" />
+          <ScalarProperty Name="AUTO_ID" ColumnName="AUTO_ID" />
+          <ScalarProperty Name="CAMINHOARQUIVO" ColumnName="CAMINHOARQUIVO" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="CAMINHOLOCAL" ColumnName="CAMINHOLOCAL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_ESPECIFICACAO_TECNICA">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_ESPECIFICACAO_TECNICA">
+        <MappingFragment StoreEntitySet="ANT_ESPECIFICACAO_TECNICA">
+          <ScalarProperty Name="ETEC_ID" ColumnName="ETEC_ID" />
+          <ScalarProperty Name="ETEC_DESCRICAO" ColumnName="ETEC_DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_FAIXA_ETARIA">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_FAIXA_ETARIA">
+        <MappingFragment StoreEntitySet="ANT_FAIXA_ETARIA">
+          <ScalarProperty Name="FETA_ID" ColumnName="FETA_ID" />
+          <ScalarProperty Name="FETA_DESCRICAO" ColumnName="FETA_DESCRICAO" />
+          <ScalarProperty Name="FETA_AEDU" ColumnName="FETA_AEDU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_FichaTecnica">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_FichaTecnica">
+        <MappingFragment StoreEntitySet="ANT_FichaTecnica">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Prod_id" ColumnName="Prod_id" />
+          <ScalarProperty Name="Paginas" ColumnName="Paginas" />
+          <ScalarProperty Name="FormatoAlura" ColumnName="FormatoAlura" />
+          <ScalarProperty Name="FormatoLargura" ColumnName="FormatoLargura" />
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+          <ScalarProperty Name="MioloCores" ColumnName="MioloCores" />
+          <ScalarProperty Name="MioloTipoPapel" ColumnName="MioloTipoPapel" />
+          <ScalarProperty Name="MioloGramatura" ColumnName="MioloGramatura" />
+          <ScalarProperty Name="MioloObservacoes" ColumnName="MioloObservacoes" />
+          <ScalarProperty Name="CapaCores" ColumnName="CapaCores" />
+          <ScalarProperty Name="CapaTipoPapel" ColumnName="CapaTipoPapel" />
+          <ScalarProperty Name="CapaGramatura" ColumnName="CapaGramatura" />
+          <ScalarProperty Name="CapaOrelha" ColumnName="CapaOrelha" />
+          <ScalarProperty Name="CapaAcabamento" ColumnName="CapaAcabamento" />
+          <ScalarProperty Name="CapaObservacoes" ColumnName="CapaObservacoes" />
+          <ScalarProperty Name="CapaAcabamentoDaLombada" ColumnName="CapaAcabamentoDaLombada" />
+          <ScalarProperty Name="CadernoPaginas" ColumnName="CadernoPaginas" />
+          <ScalarProperty Name="CadernoAltura" ColumnName="CadernoAltura" />
+          <ScalarProperty Name="CadernoLargura" ColumnName="CadernoLargura" />
+          <ScalarProperty Name="CadernoTipo" ColumnName="CadernoTipo" />
+          <ScalarProperty Name="CadernoTipoOutros" ColumnName="CadernoTipoOutros" />
+          <ScalarProperty Name="CadernoPeso" ColumnName="CadernoPeso" />
+          <ScalarProperty Name="CadernoMioloCores" ColumnName="CadernoMioloCores" />
+          <ScalarProperty Name="CadernoMioloTipoPapel" ColumnName="CadernoMioloTipoPapel" />
+          <ScalarProperty Name="CadernoMioloGramatura" ColumnName="CadernoMioloGramatura" />
+          <ScalarProperty Name="CadernoMioloObservacoes" ColumnName="CadernoMioloObservacoes" />
+          <ScalarProperty Name="CadernoCapaCores" ColumnName="CadernoCapaCores" />
+          <ScalarProperty Name="CadernoCapaTipoPapel" ColumnName="CadernoCapaTipoPapel" />
+          <ScalarProperty Name="CadernoCapaGramatura" ColumnName="CadernoCapaGramatura" />
+          <ScalarProperty Name="CadernoCapaOrelha" ColumnName="CadernoCapaOrelha" />
+          <ScalarProperty Name="CadernoCapaAcabamento" ColumnName="CadernoCapaAcabamento" />
+          <ScalarProperty Name="CadernoCapaObservacoes" ColumnName="CadernoCapaObservacoes" />
+          <ScalarProperty Name="CadernoCapaAcabamentoDaLombada" ColumnName="CadernoCapaAcabamentoDaLombada" />
+          <ScalarProperty Name="EncarteTipo" ColumnName="EncarteTipo" />
+          <ScalarProperty Name="EncarteAcabamento" ColumnName="EncarteAcabamento" />
+          <ScalarProperty Name="EncartePapel" ColumnName="EncartePapel" />
+          <ScalarProperty Name="CaixaFormato" ColumnName="CaixaFormato" />
+          <ScalarProperty Name="CaixaAcabamento" ColumnName="CaixaAcabamento" />
+          <ScalarProperty Name="CaixaPapel" ColumnName="CaixaPapel" />
+          <ScalarProperty Name="Midia" ColumnName="Midia" />
+          <ScalarProperty Name="ObservacoesGerais" ColumnName="ObservacoesGerais" />
+          <ScalarProperty Name="Foto" ColumnName="Foto" />
+          <ScalarProperty Name="FotoCaminhoAbsoluto" ColumnName="FotoCaminhoAbsoluto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_FUNCAO">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_FUNCAO">
+        <MappingFragment StoreEntitySet="ANT_FUNCAO">
+          <ScalarProperty Name="FCAO_ID" ColumnName="FCAO_ID" />
+          <ScalarProperty Name="FCAO_DESCRICAO" ColumnName="FCAO_DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_GENERO_TEXTUAL">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_GENERO_TEXTUAL">
+        <MappingFragment StoreEntitySet="ANT_GENERO_TEXTUAL">
+          <ScalarProperty Name="GTEX_ID" ColumnName="GTEX_ID" />
+          <ScalarProperty Name="GTEX_DESCRICAO" ColumnName="GTEX_DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_LOGS">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_LOGS">
+        <MappingFragment StoreEntitySet="ANT_LOGS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_TIPO_LOG" ColumnName="ID_TIPO_LOG" />
+          <ScalarProperty Name="USUARIO" ColumnName="USUARIO" />
+          <ScalarProperty Name="DATA_LOG" ColumnName="DATA_LOG" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="IpAdress" ColumnName="IpAdress" />
+          <ScalarProperty Name="ID_TIPO_SISTEMA" ColumnName="ID_TIPO_SISTEMA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_MIDIA">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_MIDIA">
+        <MappingFragment StoreEntitySet="ANT_MIDIA">
+          <ScalarProperty Name="MIDI_ID" ColumnName="MIDI_ID" />
+          <ScalarProperty Name="MIDI_DESCRICAO" ColumnName="MIDI_DESCRICAO" />
+          <ScalarProperty Name="MIDI_UNIDVENDA" ColumnName="MIDI_UNIDVENDA" />
+          <ScalarProperty Name="MIDI_PLAT" ColumnName="MIDI_PLAT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_PRODUTO_ASSUNTO">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_PRODUTO_ASSUNTO">
+        <MappingFragment StoreEntitySet="ANT_PRODUTO_ASSUNTO">
+          <ScalarProperty Name="PASS_ID" ColumnName="PASS_ID" />
+          <ScalarProperty Name="PASS_PROD" ColumnName="PASS_PROD" />
+          <ScalarProperty Name="PASS_ASSU" ColumnName="PASS_ASSU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_PRODUTO_DATAESPECIAL">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_PRODUTO_DATAESPECIAL">
+        <MappingFragment StoreEntitySet="ANT_PRODUTO_DATAESPECIAL">
+          <ScalarProperty Name="PDES_ID" ColumnName="PDES_ID" />
+          <ScalarProperty Name="PDES_DAES" ColumnName="PDES_DAES" />
+          <ScalarProperty Name="PDES_PROD" ColumnName="PDES_PROD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_PRODUTO_DOCUMENTO">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_PRODUTO_DOCUMENTO">
+        <MappingFragment StoreEntitySet="ANT_PRODUTO_DOCUMENTO">
+          <ScalarProperty Name="PDOC_ID" ColumnName="PDOC_ID" />
+          <ScalarProperty Name="PDOC_DESCRICAO" ColumnName="PDOC_DESCRICAO" />
+          <ScalarProperty Name="PDOC_DOCTO" ColumnName="PDOC_DOCTO" />
+          <ScalarProperty Name="PDOC_AUTO" ColumnName="PDOC_AUTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_PRODUTO_ESPTECNICA">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_PRODUTO_ESPTECNICA">
+        <MappingFragment StoreEntitySet="ANT_PRODUTO_ESPTECNICA">
+          <ScalarProperty Name="PESP_ID" ColumnName="PESP_ID" />
+          <ScalarProperty Name="PESP_ETEC" ColumnName="PESP_ETEC" />
+          <ScalarProperty Name="PESP_PROD" ColumnName="PESP_PROD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_PRODUTO_FUNCAO">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_PRODUTO_FUNCAO">
+        <MappingFragment StoreEntitySet="ANT_PRODUTO_FUNCAO">
+          <ScalarProperty Name="PFUN_ID" ColumnName="PFUN_ID" />
+          <ScalarProperty Name="PFUN_FCAO" ColumnName="PFUN_FCAO" />
+          <ScalarProperty Name="PFUN_AUTO" ColumnName="PFUN_AUTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_PRODUTO_TEMA">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_PRODUTO_TEMA">
+        <MappingFragment StoreEntitySet="ANT_PRODUTO_TEMA">
+          <ScalarProperty Name="PROT_ID" ColumnName="PROT_ID" />
+          <ScalarProperty Name="PROT_TEMA" ColumnName="PROT_TEMA" />
+          <ScalarProperty Name="PROT_PROD" ColumnName="PROT_PROD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_PRODUTO_TEMATRANS">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_PRODUTO_TEMATRANS">
+        <MappingFragment StoreEntitySet="ANT_PRODUTO_TEMATRANS">
+          <ScalarProperty Name="PTEM_ID" ColumnName="PTEM_ID" />
+          <ScalarProperty Name="PTEM_TEMA" ColumnName="PTEM_TEMA" />
+          <ScalarProperty Name="PTEM_PROD" ColumnName="PTEM_PROD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_TEMA">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_TEMA">
+        <MappingFragment StoreEntitySet="ANT_TEMA">
+          <ScalarProperty Name="TEMA_ID" ColumnName="TEMA_ID" />
+          <ScalarProperty Name="TEMA_DESCRICAO" ColumnName="TEMA_DESCRICAO" />
+          <ScalarProperty Name="TEMA_TIPO" ColumnName="TEMA_TIPO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_TIPO">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_TIPO">
+        <MappingFragment StoreEntitySet="ANT_TIPO">
+          <ScalarProperty Name="TIPO_ID" ColumnName="TIPO_ID" />
+          <ScalarProperty Name="TIPO_DESCRICAO" ColumnName="TIPO_DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_TIPO_LOG">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_TIPO_LOG">
+        <MappingFragment StoreEntitySet="ANT_TIPO_LOG">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_TIPO_SISTEMA">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_TIPO_SISTEMA">
+        <MappingFragment StoreEntitySet="ANT_TIPO_SISTEMA">
+          <ScalarProperty Name="ID_TIPO_SISTEMA" ColumnName="ID_TIPO_SISTEMA" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="DOMINIO" ColumnName="DOMINIO" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BKP_TB_PERMISSAO_REQUISICAO">
+      <EntityTypeMapping TypeName="EBSAModel.BKP_TB_PERMISSAO_REQUISICAO">
+        <MappingFragment StoreEntitySet="BKP_TB_PERMISSAO_REQUISICAO">
+          <ScalarProperty Name="ID_PERMISSAO_USUARIO" ColumnName="ID_PERMISSAO_USUARIO" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+          <ScalarProperty Name="PERMISSAO_REQUISICAO" ColumnName="PERMISSAO_REQUISICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CARGOes">
+      <EntityTypeMapping TypeName="EBSAModel.CARGO">
+        <MappingFragment StoreEntitySet="CARGO">
+          <ScalarProperty Name="ID_CARGO" ColumnName="ID_CARGO" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+          <ScalarProperty Name="DATA_CRIACAO" ColumnName="DATA_CRIACAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Convite_Consultor">
+      <EntityTypeMapping TypeName="EBSAModel.Convite_Consultor">
+        <MappingFragment StoreEntitySet="Convite_Consultor">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Divulgador_Id" ColumnName="Divulgador_Id" />
+          <ScalarProperty Name="Usuario_Email" ColumnName="Usuario_Email" />
+          <ScalarProperty Name="Data_Validade" ColumnName="Data_Validade" />
+          <ScalarProperty Name="Token" ColumnName="Token" />
+          <ScalarProperty Name="Data_Criado" ColumnName="Data_Criado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Convites_Solicitados_Consultor">
+      <EntityTypeMapping TypeName="EBSAModel.Convites_Solicitados_Consultor">
+        <MappingFragment StoreEntitySet="Convites_Solicitados_Consultor">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Divulgador_Id" ColumnName="Divulgador_Id" />
+          <ScalarProperty Name="Usuario_Email" ColumnName="Usuario_Email" />
+          <ScalarProperty Name="Data_Criado" ColumnName="Data_Criado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESTADOes">
+      <EntityTypeMapping TypeName="EBSAModel.ESTADO">
+        <MappingFragment StoreEntitySet="ESTADO">
+          <ScalarProperty Name="ID_ESTADO" ColumnName="ID_ESTADO" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="Sigla" ColumnName="Sigla" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FICHATECNICA_BKP">
+      <EntityTypeMapping TypeName="EBSAModel.FICHATECNICA_BKP">
+        <MappingFragment StoreEntitySet="FICHATECNICA_BKP">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Prod_id" ColumnName="Prod_id" />
+          <ScalarProperty Name="Paginas" ColumnName="Paginas" />
+          <ScalarProperty Name="FormatoAlura" ColumnName="FormatoAlura" />
+          <ScalarProperty Name="FormatoLargura" ColumnName="FormatoLargura" />
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+          <ScalarProperty Name="MioloCores" ColumnName="MioloCores" />
+          <ScalarProperty Name="MioloTipoPapel" ColumnName="MioloTipoPapel" />
+          <ScalarProperty Name="MioloGramatura" ColumnName="MioloGramatura" />
+          <ScalarProperty Name="MioloObservacoes" ColumnName="MioloObservacoes" />
+          <ScalarProperty Name="CapaCores" ColumnName="CapaCores" />
+          <ScalarProperty Name="CapaTipoPapel" ColumnName="CapaTipoPapel" />
+          <ScalarProperty Name="CapaGramatura" ColumnName="CapaGramatura" />
+          <ScalarProperty Name="CapaOrelha" ColumnName="CapaOrelha" />
+          <ScalarProperty Name="CapaAcabamento" ColumnName="CapaAcabamento" />
+          <ScalarProperty Name="CapaObservacoes" ColumnName="CapaObservacoes" />
+          <ScalarProperty Name="CapaAcabamentoDaLombada" ColumnName="CapaAcabamentoDaLombada" />
+          <ScalarProperty Name="CadernoPaginas" ColumnName="CadernoPaginas" />
+          <ScalarProperty Name="CadernoAltura" ColumnName="CadernoAltura" />
+          <ScalarProperty Name="CadernoLargura" ColumnName="CadernoLargura" />
+          <ScalarProperty Name="CadernoTipo" ColumnName="CadernoTipo" />
+          <ScalarProperty Name="CadernoTipoOutros" ColumnName="CadernoTipoOutros" />
+          <ScalarProperty Name="CadernoPeso" ColumnName="CadernoPeso" />
+          <ScalarProperty Name="CadernoMioloCores" ColumnName="CadernoMioloCores" />
+          <ScalarProperty Name="CadernoMioloTipoPapel" ColumnName="CadernoMioloTipoPapel" />
+          <ScalarProperty Name="CadernoMioloGramatura" ColumnName="CadernoMioloGramatura" />
+          <ScalarProperty Name="CadernoMioloObservacoes" ColumnName="CadernoMioloObservacoes" />
+          <ScalarProperty Name="CadernoCapaCores" ColumnName="CadernoCapaCores" />
+          <ScalarProperty Name="CadernoCapaTipoPapel" ColumnName="CadernoCapaTipoPapel" />
+          <ScalarProperty Name="CadernoCapaGramatura" ColumnName="CadernoCapaGramatura" />
+          <ScalarProperty Name="CadernoCapaOrelha" ColumnName="CadernoCapaOrelha" />
+          <ScalarProperty Name="CadernoCapaAcabamento" ColumnName="CadernoCapaAcabamento" />
+          <ScalarProperty Name="CadernoCapaObservacoes" ColumnName="CadernoCapaObservacoes" />
+          <ScalarProperty Name="CadernoCapaAcabamentoDaLombada" ColumnName="CadernoCapaAcabamentoDaLombada" />
+          <ScalarProperty Name="EncarteTipo" ColumnName="EncarteTipo" />
+          <ScalarProperty Name="EncarteAcabamento" ColumnName="EncarteAcabamento" />
+          <ScalarProperty Name="EncartePapel" ColumnName="EncartePapel" />
+          <ScalarProperty Name="CaixaFormato" ColumnName="CaixaFormato" />
+          <ScalarProperty Name="CaixaAcabamento" ColumnName="CaixaAcabamento" />
+          <ScalarProperty Name="CaixaPapel" ColumnName="CaixaPapel" />
+          <ScalarProperty Name="Midia" ColumnName="Midia" />
+          <ScalarProperty Name="ObservacoesGerais" ColumnName="ObservacoesGerais" />
+          <ScalarProperty Name="Foto" ColumnName="Foto" />
+          <ScalarProperty Name="FotoCaminhoAbsoluto" ColumnName="FotoCaminhoAbsoluto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FILIALs">
+      <EntityTypeMapping TypeName="EBSAModel.FILIAL">
+        <MappingFragment StoreEntitySet="FILIAL">
+          <ScalarProperty Name="ID_FILIAL" ColumnName="ID_FILIAL" />
+          <ScalarProperty Name="ID_ESTADO" ColumnName="ID_ESTADO" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Flipbook_Consultor">
+      <EntityTypeMapping TypeName="EBSAModel.Flipbook_Consultor">
+        <MappingFragment StoreEntitySet="Flipbook_Consultor">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="FlipbookURL" ColumnName="FlipbookURL" />
+          <ScalarProperty Name="CapaURL" ColumnName="CapaURL" />
+          <ScalarProperty Name="EBSA" ColumnName="EBSA" />
+          <ScalarProperty Name="Parceiro" ColumnName="Parceiro" />
+          <ScalarProperty Name="Autor" ColumnName="Autor" />
+          <ScalarProperty Name="Materia" ColumnName="Materia" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Segmento" ColumnName="Segmento" />
+          <ScalarProperty Name="Colecao" ColumnName="Colecao" />
+          <ScalarProperty Name="Ano_Publicacao" ColumnName="Ano_Publicacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Flipbook_Consultor_bkp">
+      <EntityTypeMapping TypeName="EBSAModel.Flipbook_Consultor_bkp">
+        <MappingFragment StoreEntitySet="Flipbook_Consultor_bkp">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="FlipbookURL" ColumnName="FlipbookURL" />
+          <ScalarProperty Name="CapaURL" ColumnName="CapaURL" />
+          <ScalarProperty Name="EBSA" ColumnName="EBSA" />
+          <ScalarProperty Name="Parceiro" ColumnName="Parceiro" />
+          <ScalarProperty Name="Autor" ColumnName="Autor" />
+          <ScalarProperty Name="Materia" ColumnName="Materia" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Segmento" ColumnName="Segmento" />
+          <ScalarProperty Name="Colecao" ColumnName="Colecao" />
+          <ScalarProperty Name="Ano_Publicacao" ColumnName="Ano_Publicacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GERENTE_SUPERVISOR_REGIAO">
+      <EntityTypeMapping TypeName="EBSAModel.GERENTE_SUPERVISOR_REGIAO">
+        <MappingFragment StoreEntitySet="GERENTE_SUPERVISOR_REGIAO">
+          <ScalarProperty Name="ID_GERENTE_SUPERVISOR_REGIAO" ColumnName="ID_GERENTE_SUPERVISOR_REGIAO" />
+          <ScalarProperty Name="ID_ESTADO" ColumnName="ID_ESTADO" />
+          <ScalarProperty Name="ID_USUARIO_GERENTE" ColumnName="ID_USUARIO_GERENTE" />
+          <ScalarProperty Name="ID_USUARIO_SUPERVISOR" ColumnName="ID_USUARIO_SUPERVISOR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GRUPOes">
+      <EntityTypeMapping TypeName="EBSAModel.GRUPO">
+        <MappingFragment StoreEntitySet="GRUPO">
+          <ScalarProperty Name="ID_GRUPO" ColumnName="ID_GRUPO" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+          <ScalarProperty Name="DATA_CRIACAO" ColumnName="DATA_CRIACAO" />
+          <ScalarProperty Name="DATA_ALTERACAO" ColumnName="DATA_ALTERACAO" />
+          <ScalarProperty Name="USUARIO" ColumnName="USUARIO" />
+          <ScalarProperty Name="DEPARTAMENTO" ColumnName="DEPARTAMENTO" />
+          <ScalarProperty Name="ID_GRUPO_AD" ColumnName="ID_GRUPO_AD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HISTORICO_INTEGRACAO_PROTHEUS">
+      <EntityTypeMapping TypeName="EBSAModel.HISTORICO_INTEGRACAO_PROTHEUS">
+        <MappingFragment StoreEntitySet="HISTORICO_INTEGRACAO_PROTHEUS">
+          <ScalarProperty Name="ID_REGISTRO" ColumnName="ID_REGISTRO" />
+          <ScalarProperty Name="ID_PRODUTO" ColumnName="ID_PRODUTO" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="MENSAGEM" ColumnName="MENSAGEM" />
+          <ScalarProperty Name="DATA" ColumnName="DATA" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="INTEGRACAO_ADMPORTAL_CONSULTOR">
+      <EntityTypeMapping TypeName="EBSAModel.INTEGRACAO_ADMPORTAL_CONSULTOR">
+        <MappingFragment StoreEntitySet="INTEGRACAO_ADMPORTAL_CONSULTOR">
+          <ScalarProperty Name="GUID" ColumnName="GUID" />
+          <ScalarProperty Name="COD_DIVULGADOR" ColumnName="COD_DIVULGADOR" />
+          <ScalarProperty Name="DATA" ColumnName="DATA" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_Acesso_Consultor">
+      <EntityTypeMapping TypeName="EBSAModel.Log_Acesso_Consultor">
+        <MappingFragment StoreEntitySet="Log_Acesso_Consultor">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email_Usuario" ColumnName="Email_Usuario" />
+          <ScalarProperty Name="Data_Acesso" ColumnName="Data_Acesso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOGS">
+      <EntityTypeMapping TypeName="EBSAModel.LOG">
+        <MappingFragment StoreEntitySet="LOGS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_TIPO_LOG" ColumnName="ID_TIPO_LOG" />
+          <ScalarProperty Name="USUARIO" ColumnName="USUARIO" />
+          <ScalarProperty Name="DATA_LOG" ColumnName="DATA_LOG" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="IpAdress" ColumnName="IpAdress" />
+          <ScalarProperty Name="ID_TIPO_SISTEMA" ColumnName="ID_TIPO_SISTEMA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MENUs">
+      <EntityTypeMapping TypeName="EBSAModel.MENU">
+        <MappingFragment StoreEntitySet="MENU">
+          <ScalarProperty Name="ID_MENU" ColumnName="ID_MENU" />
+          <ScalarProperty Name="ID_MENU_PAI" ColumnName="ID_MENU_PAI" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="LINK" ColumnName="LINK" />
+          <ScalarProperty Name="ROTA" ColumnName="ROTA" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+          <ScalarProperty Name="NOME_CONTROLLER" ColumnName="NOME_CONTROLLER" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MENU_GRUPO">
+      <EntityTypeMapping TypeName="EBSAModel.MENU_GRUPO">
+        <MappingFragment StoreEntitySet="MENU_GRUPO">
+          <ScalarProperty Name="ID_MENU_GRUPO" ColumnName="ID_MENU_GRUPO" />
+          <ScalarProperty Name="ID_MENU" ColumnName="ID_MENU" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+          <ScalarProperty Name="ID_GRUPO" ColumnName="ID_GRUPO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NIVELs">
+      <EntityTypeMapping TypeName="EBSAModel.NIVEL">
+        <MappingFragment StoreEntitySet="NIVEL">
+          <ScalarProperty Name="ID_NIVEL" ColumnName="ID_NIVEL" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+          <ScalarProperty Name="DATA_CRIACAO" ColumnName="DATA_CRIACAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PERIODOes">
+      <EntityTypeMapping TypeName="EBSAModel.PERIODO">
+        <MappingFragment StoreEntitySet="PERIODO">
+          <ScalarProperty Name="ID_PERIODO" ColumnName="ID_PERIODO" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="QNT_MES" ColumnName="QNT_MES" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PESSOAs">
+      <EntityTypeMapping TypeName="EBSAModel.PESSOA">
+        <MappingFragment StoreEntitySet="PESSOA">
+          <ScalarProperty Name="PESS_ID" ColumnName="PESS_ID" />
+          <ScalarProperty Name="PESS_NOME" ColumnName="PESS_NOME" />
+          <ScalarProperty Name="PESS_CPF" ColumnName="PESS_CPF" />
+          <ScalarProperty Name="PESS_END" ColumnName="PESS_END" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PLATAFORMAs">
+      <EntityTypeMapping TypeName="EBSAModel.PLATAFORMA">
+        <MappingFragment StoreEntitySet="PLATAFORMA">
+          <ScalarProperty Name="PLAT_ID" ColumnName="PLAT_ID" />
+          <ScalarProperty Name="PLAT_DESCRICAO" ColumnName="PLAT_DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUTOes">
+      <EntityTypeMapping TypeName="EBSAModel.PRODUTO">
+        <MappingFragment StoreEntitySet="PRODUTO">
+          <ScalarProperty Name="PROD_ID" ColumnName="PROD_ID" />
+          <ScalarProperty Name="PROD_CDIS" ColumnName="PROD_CDIS" />
+          <ScalarProperty Name="PROD_TEMA" ColumnName="PROD_TEMA" />
+          <ScalarProperty Name="PROD_DISC" ColumnName="PROD_DISC" />
+          <ScalarProperty Name="PROD_MERCADO" ColumnName="PROD_MERCADO" />
+          <ScalarProperty Name="PROD_PROGRAMA" ColumnName="PROD_PROGRAMA" />
+          <ScalarProperty Name="PROD_TIPO" ColumnName="PROD_TIPO" />
+          <ScalarProperty Name="PROD_SELO" ColumnName="PROD_SELO" />
+          <ScalarProperty Name="PROD_SEGM" ColumnName="PROD_SEGM" />
+          <ScalarProperty Name="PROD_AEDU" ColumnName="PROD_AEDU" />
+          <ScalarProperty Name="PROD_COMP" ColumnName="PROD_COMP" />
+          <ScalarProperty Name="PROD_FAIXAETARIA" ColumnName="PROD_FAIXAETARIA" />
+          <ScalarProperty Name="PROD_ASSU" ColumnName="PROD_ASSU" />
+          <ScalarProperty Name="PROD_GTEX" ColumnName="PROD_GTEX" />
+          <ScalarProperty Name="PROD_PREMIACAO" ColumnName="PROD_PREMIACAO" />
+          <ScalarProperty Name="PROD_VERSAO" ColumnName="PROD_VERSAO" />
+          <ScalarProperty Name="PROD_COLE" ColumnName="PROD_COLE" />
+          <ScalarProperty Name="PROD_TITULO" ColumnName="PROD_TITULO" />
+          <ScalarProperty Name="PROD_EDICAO" ColumnName="PROD_EDICAO" />
+          <ScalarProperty Name="PROD_MIDI" ColumnName="PROD_MIDI" />
+          <ScalarProperty Name="PROD_PAGINAS" ColumnName="PROD_PAGINAS" />
+          <ScalarProperty Name="PROD_PLAT" ColumnName="PROD_PLAT" />
+          <ScalarProperty Name="PROD_FORALTURA" ColumnName="PROD_FORALTURA" />
+          <ScalarProperty Name="PROD_FORLARGURA" ColumnName="PROD_FORLARGURA" />
+          <ScalarProperty Name="PROD_PESO" ColumnName="PROD_PESO" />
+          <ScalarProperty Name="PROD_PUBLICACAO" ColumnName="PROD_PUBLICACAO" />
+          <ScalarProperty Name="PROD_ISBN" ColumnName="PROD_ISBN" />
+          <ScalarProperty Name="PROD_STATUS" ColumnName="PROD_STATUS" />
+          <ScalarProperty Name="PROD_CODBARRAS" ColumnName="PROD_CODBARRAS" />
+          <ScalarProperty Name="PROD_SINOPSE" ColumnName="PROD_SINOPSE" />
+          <ScalarProperty Name="PROD_PRECO" ColumnName="PROD_PRECO" />
+          <ScalarProperty Name="PROD_EBSA" ColumnName="PROD_EBSA" />
+          <ScalarProperty Name="PROD_UNIDADE" ColumnName="PROD_UNIDADE" />
+          <ScalarProperty Name="PROD_CODPROT" ColumnName="PROD_CODPROT" />
+          <ScalarProperty Name="PROD_PUBLICADO" ColumnName="PROD_PUBLICADO" />
+          <ScalarProperty Name="PROD_DATAPUBLICACAO" ColumnName="PROD_DATAPUBLICACAO" />
+          <ScalarProperty Name="PROD_ORIGEM" ColumnName="PROD_ORIGEM" />
+          <ScalarProperty Name="EXCLUIDO" ColumnName="EXCLUIDO" />
+          <ScalarProperty Name="PROD_TIPO_PRODUTO" ColumnName="PROD_TIPO_PRODUTO" />
+          <ScalarProperty Name="PROD_UNIDADE_MEDIDA" ColumnName="PROD_UNIDADE_MEDIDA" />
+          <ScalarProperty Name="ID_GRUPO" ColumnName="ID_GRUPO" />
+          <ScalarProperty Name="ID_SEGMENTO" ColumnName="ID_SEGMENTO" />
+          <ScalarProperty Name="PROD_VIDEO" ColumnName="PROD_VIDEO" />
+          <ScalarProperty Name="PROD_NOME_CAPA" ColumnName="PROD_NOME_CAPA" />
+          <ScalarProperty Name="ID_SELO" ColumnName="ID_SELO" />
+          <ScalarProperty Name="ANO_PROGRAMA" ColumnName="ANO_PROGRAMA" />
+          <ScalarProperty Name="PROD_INTEGRADO" ColumnName="PROD_INTEGRADO" />
+          <ScalarProperty Name="PROD_DATAINTEGRACAO" ColumnName="PROD_DATAINTEGRACAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUTO_BKP">
+      <EntityTypeMapping TypeName="EBSAModel.PRODUTO_BKP">
+        <MappingFragment StoreEntitySet="PRODUTO_BKP">
+          <ScalarProperty Name="PROD_ID" ColumnName="PROD_ID" />
+          <ScalarProperty Name="PROD_CDIS" ColumnName="PROD_CDIS" />
+          <ScalarProperty Name="PROD_TEMA" ColumnName="PROD_TEMA" />
+          <ScalarProperty Name="PROD_DISC" ColumnName="PROD_DISC" />
+          <ScalarProperty Name="PROD_MERCADO" ColumnName="PROD_MERCADO" />
+          <ScalarProperty Name="PROD_PROGRAMA" ColumnName="PROD_PROGRAMA" />
+          <ScalarProperty Name="PROD_TIPO" ColumnName="PROD_TIPO" />
+          <ScalarProperty Name="PROD_SELO" ColumnName="PROD_SELO" />
+          <ScalarProperty Name="PROD_SEGM" ColumnName="PROD_SEGM" />
+          <ScalarProperty Name="PROD_AEDU" ColumnName="PROD_AEDU" />
+          <ScalarProperty Name="PROD_COMP" ColumnName="PROD_COMP" />
+          <ScalarProperty Name="PROD_FAIXAETARIA" ColumnName="PROD_FAIXAETARIA" />
+          <ScalarProperty Name="PROD_ASSU" ColumnName="PROD_ASSU" />
+          <ScalarProperty Name="PROD_GTEX" ColumnName="PROD_GTEX" />
+          <ScalarProperty Name="PROD_PREMIACAO" ColumnName="PROD_PREMIACAO" />
+          <ScalarProperty Name="PROD_VERSAO" ColumnName="PROD_VERSAO" />
+          <ScalarProperty Name="PROD_COLE" ColumnName="PROD_COLE" />
+          <ScalarProperty Name="PROD_TITULO" ColumnName="PROD_TITULO" />
+          <ScalarProperty Name="PROD_EDICAO" ColumnName="PROD_EDICAO" />
+          <ScalarProperty Name="PROD_MIDI" ColumnName="PROD_MIDI" />
+          <ScalarProperty Name="PROD_PAGINAS" ColumnName="PROD_PAGINAS" />
+          <ScalarProperty Name="PROD_PLAT" ColumnName="PROD_PLAT" />
+          <ScalarProperty Name="PROD_FORALTURA" ColumnName="PROD_FORALTURA" />
+          <ScalarProperty Name="PROD_FORLARGURA" ColumnName="PROD_FORLARGURA" />
+          <ScalarProperty Name="PROD_PESO" ColumnName="PROD_PESO" />
+          <ScalarProperty Name="PROD_PUBLICACAO" ColumnName="PROD_PUBLICACAO" />
+          <ScalarProperty Name="PROD_ISBN" ColumnName="PROD_ISBN" />
+          <ScalarProperty Name="PROD_STATUS" ColumnName="PROD_STATUS" />
+          <ScalarProperty Name="PROD_CODBARRAS" ColumnName="PROD_CODBARRAS" />
+          <ScalarProperty Name="PROD_SINOPSE" ColumnName="PROD_SINOPSE" />
+          <ScalarProperty Name="PROD_PRECO" ColumnName="PROD_PRECO" />
+          <ScalarProperty Name="PROD_EBSA" ColumnName="PROD_EBSA" />
+          <ScalarProperty Name="PROD_UNIDADE" ColumnName="PROD_UNIDADE" />
+          <ScalarProperty Name="PROD_CODPROT" ColumnName="PROD_CODPROT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Produto_Status">
+      <EntityTypeMapping TypeName="EBSAModel.Produto_Status">
+        <MappingFragment StoreEntitySet="Produto_Status">
+          <ScalarProperty Name="Id_Produto_Status" ColumnName="Id_Produto_Status" />
+          <ScalarProperty Name="Cod_Produto_Status" ColumnName="Cod_Produto_Status" />
+          <ScalarProperty Name="Descricao_Produto_Status" ColumnName="Descricao_Produto_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RAMAIS_FAVORITOS">
+      <EntityTypeMapping TypeName="EBSAModel.RAMAIS_FAVORITOS">
+        <MappingFragment StoreEntitySet="RAMAIS_FAVORITOS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+          <ScalarProperty Name="NOME_FAVORITADO" ColumnName="NOME_FAVORITADO" />
+          <ScalarProperty Name="RAMAL_FAVORITADO" ColumnName="RAMAL_FAVORITADO" />
+          <ScalarProperty Name="DEPARTAMENTO_FAVORITADO" ColumnName="DEPARTAMENTO_FAVORITADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REQUISICAOs">
+      <EntityTypeMapping TypeName="EBSAModel.REQUISICAO">
+        <MappingFragment StoreEntitySet="REQUISICAO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DEPTO" ColumnName="DEPTO" />
+          <ScalarProperty Name="EMISSAO" ColumnName="EMISSAO" />
+          <ScalarProperty Name="FORNECEDOR" ColumnName="FORNECEDOR" />
+          <ScalarProperty Name="LOJA" ColumnName="LOJA" />
+          <ScalarProperty Name="VALOR" ColumnName="VALOR" />
+          <ScalarProperty Name="PRAZO_ENTREGA" ColumnName="PRAZO_ENTREGA" />
+          <ScalarProperty Name="PRAZO_PAGTO" ColumnName="PRAZO_PAGTO" />
+          <ScalarProperty Name="PESSOA" ColumnName="PESSOA" />
+          <ScalarProperty Name="FORMA_PAGTO" ColumnName="FORMA_PAGTO" />
+          <ScalarProperty Name="CONFIRMAR_PAGTO" ColumnName="CONFIRMAR_PAGTO" />
+          <ScalarProperty Name="DOC" ColumnName="DOC" />
+          <ScalarProperty Name="OBS" ColumnName="OBS" />
+          <ScalarProperty Name="APROVADO_SUPERVISOR" ColumnName="APROVADO_SUPERVISOR" />
+          <ScalarProperty Name="APROVADO_GERENTE" ColumnName="APROVADO_GERENTE" />
+          <ScalarProperty Name="OUTROS_SERVICOS" ColumnName="OUTROS_SERVICOS" />
+          <ScalarProperty Name="INCLUIDOR" ColumnName="INCLUIDOR" />
+          <ScalarProperty Name="INCLUIDO" ColumnName="INCLUIDO" />
+          <ScalarProperty Name="ALTERADOR" ColumnName="ALTERADOR" />
+          <ScalarProperty Name="ALTERADO" ColumnName="ALTERADO" />
+          <ScalarProperty Name="GERENTE" ColumnName="GERENTE" />
+          <ScalarProperty Name="SUPERVISOR" ColumnName="SUPERVISOR" />
+          <ScalarProperty Name="OUTROS" ColumnName="OUTROS" />
+          <ScalarProperty Name="TELEFONE" ColumnName="TELEFONE" />
+          <ScalarProperty Name="CONTATO" ColumnName="CONTATO" />
+          <ScalarProperty Name="DESC_PAG" ColumnName="DESC_PAG" />
+          <ScalarProperty Name="DATA_APROV_SUPERVISOR" ColumnName="DATA_APROV_SUPERVISOR" />
+          <ScalarProperty Name="DATA_REPROV_SUPERVISOR" ColumnName="DATA_REPROV_SUPERVISOR" />
+          <ScalarProperty Name="DATA_APROV_GERENTE" ColumnName="DATA_APROV_GERENTE" />
+          <ScalarProperty Name="DATA_REPROV_GERENTE" ColumnName="DATA_REPROV_GERENTE" />
+          <ScalarProperty Name="EXCLUIDO" ColumnName="EXCLUIDO" />
+          <ScalarProperty Name="DATA_EXCLUSAO" ColumnName="DATA_EXCLUSAO" />
+          <ScalarProperty Name="EXCLUIDOR" ColumnName="EXCLUIDOR" />
+          <ScalarProperty Name="USER_ENVIO_FINANCEIRO" ColumnName="USER_ENVIO_FINANCEIRO" />
+          <ScalarProperty Name="DATA_ENVIO_FINANCEIRO" ColumnName="DATA_ENVIO_FINANCEIRO" />
+          <ScalarProperty Name="ID_REQUISICAO_DEPTO" ColumnName="ID_REQUISICAO_DEPTO" />
+          <ScalarProperty Name="CONTADOR_CHAMADO" ColumnName="CONTADOR_CHAMADO" />
+          <ScalarProperty Name="USER_ENVIO_SOLIC_COMPROVANTE" ColumnName="USER_ENVIO_SOLIC_COMPROVANTE" />
+          <ScalarProperty Name="DATA_ENVIO_SOLIC_COMPROVANTE" ColumnName="DATA_ENVIO_SOLIC_COMPROVANTE" />
+          <ScalarProperty Name="OBSD" ColumnName="OBSD" />
+          <ScalarProperty Name="MOEDA" ColumnName="MOEDA" />
+          <ScalarProperty Name="OPSIMP" ColumnName="OPSIMP" />
+          <ScalarProperty Name="TIPODOC" ColumnName="TIPODOC" />
+          <ScalarProperty Name="IMPOSTO_CALCULADO" ColumnName="IMPOSTO_CALCULADO" />
+          <ScalarProperty Name="COFINS" ColumnName="COFINS" />
+          <ScalarProperty Name="PIS" ColumnName="PIS" />
+          <ScalarProperty Name="CSL" ColumnName="CSL" />
+          <ScalarProperty Name="INSS" ColumnName="INSS" />
+          <ScalarProperty Name="ISS" ColumnName="ISS" />
+          <ScalarProperty Name="IRRF" ColumnName="IRRF" />
+          <ScalarProperty Name="IMPOSTO_CALCULADO_DATA" ColumnName="IMPOSTO_CALCULADO_DATA" />
+          <ScalarProperty Name="FINANCEIRO_TRANSF" ColumnName="FINANCEIRO_TRANSF" />
+          <ScalarProperty Name="FINANCEIRO_TRANSF_DATA" ColumnName="FINANCEIRO_TRANSF_DATA" />
+          <ScalarProperty Name="OE_INSS" ColumnName="OE_INSS" />
+          <ScalarProperty Name="OE_BINSS" ColumnName="OE_BINSS" />
+          <ScalarProperty Name="FINANCEIRO_DIG" ColumnName="FINANCEIRO_DIG" />
+          <ScalarProperty Name="CONTABIL_DIG" ColumnName="CONTABIL_DIG" />
+          <ScalarProperty Name="EVCONF" ColumnName="EVCONF" />
+          <ScalarProperty Name="DTEVCONF" ColumnName="DTEVCONF" />
+          <ScalarProperty Name="USEREVCONF" ColumnName="USEREVCONF" />
+          <ScalarProperty Name="CONTRATO" ColumnName="CONTRATO" />
+          <ScalarProperty Name="ID_ELVIS" ColumnName="ID_ELVIS" />
+          <ScalarProperty Name="ELVIS_OK" ColumnName="ELVIS_OK" />
+          <ScalarProperty Name="SERIE" ColumnName="SERIE" />
+          <ScalarProperty Name="INTEGRADO_PROTHEUS" ColumnName="INTEGRADO_PROTHEUS" />
+          <ScalarProperty Name="CANCELADA" ColumnName="CANCELADA" />
+          <ScalarProperty Name="DATA_CANCELAMENTO" ColumnName="DATA_CANCELAMENTO" />
+          <ScalarProperty Name="USER_CANCELAMENTO" ColumnName="USER_CANCELAMENTO" />
+          <ScalarProperty Name="ELVIS_ORIGEM" ColumnName="ELVIS_ORIGEM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REQUISICAO_OBRA">
+      <EntityTypeMapping TypeName="EBSAModel.REQUISICAO_OBRA">
+        <MappingFragment StoreEntitySet="REQUISICAO_OBRA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_REQ" ColumnName="ID_REQ" />
+          <ScalarProperty Name="OBRA" ColumnName="OBRA" />
+          <ScalarProperty Name="RATEIO" ColumnName="RATEIO" />
+          <ScalarProperty Name="EXCLUIDO" ColumnName="EXCLUIDO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REQUISICAO_PARCELA">
+      <EntityTypeMapping TypeName="EBSAModel.REQUISICAO_PARCELA">
+        <MappingFragment StoreEntitySet="REQUISICAO_PARCELA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_REQ" ColumnName="ID_REQ" />
+          <ScalarProperty Name="NUMERO_PARCELA" ColumnName="NUMERO_PARCELA" />
+          <ScalarProperty Name="VALOR" ColumnName="VALOR" />
+          <ScalarProperty Name="DATA_PAGTO" ColumnName="DATA_PAGTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REQUISICAO_SERVICO">
+      <EntityTypeMapping TypeName="EBSAModel.REQUISICAO_SERVICO">
+        <MappingFragment StoreEntitySet="REQUISICAO_SERVICO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_REQ" ColumnName="ID_REQ" />
+          <ScalarProperty Name="SERVICO" ColumnName="SERVICO" />
+          <ScalarProperty Name="EXCLUIDO" ColumnName="EXCLUIDO" />
+          <ScalarProperty Name="SERV_RATEIO" ColumnName="SERV_RATEIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SEGMENTOes">
+      <EntityTypeMapping TypeName="EBSAModel.SEGMENTO">
+        <MappingFragment StoreEntitySet="SEGMENTO">
+          <ScalarProperty Name="SEGM_ID" ColumnName="SEGM_ID" />
+          <ScalarProperty Name="SEGM_DESCRICAO" ColumnName="SEGM_DESCRICAO" />
+          <ScalarProperty Name="ABREVIACAO" ColumnName="ABREVIACAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SUPERVISOR_DIVULGADOR">
+      <EntityTypeMapping TypeName="EBSAModel.SUPERVISOR_DIVULGADOR">
+        <MappingFragment StoreEntitySet="SUPERVISOR_DIVULGADOR">
+          <ScalarProperty Name="ID_SUPERVISOR_DIVULGADOR" ColumnName="ID_SUPERVISOR_DIVULGADOR" />
+          <ScalarProperty Name="ID_ESTADO" ColumnName="ID_ESTADO" />
+          <ScalarProperty Name="ID_USUARIO_SUPERVISOR" ColumnName="ID_USUARIO_SUPERVISOR" />
+          <ScalarProperty Name="ID_USUARIO_DIVULGADOR" ColumnName="ID_USUARIO_DIVULGADOR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="EBSAModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_ABA_CADASTRO_PRODUTO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_ABA_CADASTRO_PRODUTO">
+        <MappingFragment StoreEntitySet="TB_ABA_CADASTRO_PRODUTO">
+          <ScalarProperty Name="ID_ABA" ColumnName="ID_ABA" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="ID_MENU" ColumnName="ID_MENU" />
+          <ScalarProperty Name="NOME_ABA" ColumnName="NOME_ABA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CABECALHO_PAINEL_META">
+      <EntityTypeMapping TypeName="EBSAModel.TB_CABECALHO_PAINEL_META">
+        <MappingFragment StoreEntitySet="TB_CABECALHO_PAINEL_META">
+          <ScalarProperty Name="ID_META" ColumnName="ID_META" />
+          <ScalarProperty Name="ID_GRUPO_PAINEL" ColumnName="ID_GRUPO_PAINEL" />
+          <ScalarProperty Name="ID_STATUS" ColumnName="ID_STATUS" />
+          <ScalarProperty Name="OBSERVACAO" ColumnName="OBSERVACAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CADERNO_PRODUTO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_CADERNO_PRODUTO">
+        <MappingFragment StoreEntitySet="TB_CADERNO_PRODUTO">
+          <ScalarProperty Name="ID_CADERNO" ColumnName="ID_CADERNO" />
+          <ScalarProperty Name="ID_PRODUTO" ColumnName="ID_PRODUTO" />
+          <ScalarProperty Name="CADERNO_PAGINAS" ColumnName="CADERNO_PAGINAS" />
+          <ScalarProperty Name="CADERNO_ALT" ColumnName="CADERNO_ALT" />
+          <ScalarProperty Name="CADERNO_LARG" ColumnName="CADERNO_LARG" />
+          <ScalarProperty Name="CADERNO_TIPO" ColumnName="CADERNO_TIPO" />
+          <ScalarProperty Name="CADERNO_TIPO_OUTROS" ColumnName="CADERNO_TIPO_OUTROS" />
+          <ScalarProperty Name="CADERNO_PESO" ColumnName="CADERNO_PESO" />
+          <ScalarProperty Name="CADERNO_MIOLO_CORES" ColumnName="CADERNO_MIOLO_CORES" />
+          <ScalarProperty Name="CADERNO_MIOLO_TP_PAPEL" ColumnName="CADERNO_MIOLO_TP_PAPEL" />
+          <ScalarProperty Name="CADERNO_MIOLO_GRAMATURA" ColumnName="CADERNO_MIOLO_GRAMATURA" />
+          <ScalarProperty Name="CADERNO_MIOLO_OBS" ColumnName="CADERNO_MIOLO_OBS" />
+          <ScalarProperty Name="CADERNO_CAPA_CORES" ColumnName="CADERNO_CAPA_CORES" />
+          <ScalarProperty Name="CADERNO_CAPA_TP_PAPEL" ColumnName="CADERNO_CAPA_TP_PAPEL" />
+          <ScalarProperty Name="CADERNO_CAPA_GRAMATURA" ColumnName="CADERNO_CAPA_GRAMATURA" />
+          <ScalarProperty Name="CADERNO_CAPA_ORELHA" ColumnName="CADERNO_CAPA_ORELHA" />
+          <ScalarProperty Name="CADERNO_CAPA_ACABAMENTO" ColumnName="CADERNO_CAPA_ACABAMENTO" />
+          <ScalarProperty Name="CADERNO_CAPA_OBS" ColumnName="CADERNO_CAPA_OBS" />
+          <ScalarProperty Name="CADERNO_CAPA_ACAB_LOMBADA" ColumnName="CADERNO_CAPA_ACAB_LOMBADA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CAMPO_ORIGEM">
+      <EntityTypeMapping TypeName="EBSAModel.TB_CAMPO_ORIGEM">
+        <MappingFragment StoreEntitySet="TB_CAMPO_ORIGEM">
+          <ScalarProperty Name="ID_CAMPO" ColumnName="ID_CAMPO" />
+          <ScalarProperty Name="NOME_CAMPO" ColumnName="NOME_CAMPO" />
+          <ScalarProperty Name="ID_TABELA" ColumnName="ID_TABELA" />
+          <ScalarProperty Name="SCRIPT_CAMPO" ColumnName="SCRIPT_CAMPO" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CAPA_PRODUTO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_CAPA_PRODUTO">
+        <MappingFragment StoreEntitySet="TB_CAPA_PRODUTO">
+          <ScalarProperty Name="ID_CAPA" ColumnName="ID_CAPA" />
+          <ScalarProperty Name="ID_PRODUTO" ColumnName="ID_PRODUTO" />
+          <ScalarProperty Name="CAPA_CORES" ColumnName="CAPA_CORES" />
+          <ScalarProperty Name="CAPA_TIPO_PAPEL" ColumnName="CAPA_TIPO_PAPEL" />
+          <ScalarProperty Name="CAPA_GRAMATURA" ColumnName="CAPA_GRAMATURA" />
+          <ScalarProperty Name="CAPA_ORELHA" ColumnName="CAPA_ORELHA" />
+          <ScalarProperty Name="CAPA_ACABAMENTO" ColumnName="CAPA_ACABAMENTO" />
+          <ScalarProperty Name="CAPA_OBS" ColumnName="CAPA_OBS" />
+          <ScalarProperty Name="CAPA_ACABAMENTO_LOMBADA" ColumnName="CAPA_ACABAMENTO_LOMBADA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CARGO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_CARGO">
+        <MappingFragment StoreEntitySet="TB_CARGO">
+          <ScalarProperty Name="ID_CARGO" ColumnName="ID_CARGO" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="ID_HIERARQUIA" ColumnName="ID_HIERARQUIA" />
+          <ScalarProperty Name="ID_GRUPO_PAINEL" ColumnName="ID_GRUPO_PAINEL" />
+          <ScalarProperty Name="DT_CADASTRO" ColumnName="DT_CADASTRO" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_COLLECTION_ELVIS">
+      <EntityTypeMapping TypeName="EBSAModel.TB_COLLECTION_ELVIS">
+        <MappingFragment StoreEntitySet="TB_COLLECTION_ELVIS">
+          <ScalarProperty Name="ID_COLLECTION" ColumnName="ID_COLLECTION" />
+          <ScalarProperty Name="CODIGO_ELVIS" ColumnName="CODIGO_ELVIS" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="CAMINHO" ColumnName="CAMINHO" />
+          <ScalarProperty Name="PARTE_LIVRO" ColumnName="PARTE_LIVRO" />
+          <ScalarProperty Name="CODIGO_LIVRO" ColumnName="CODIGO_LIVRO" />
+          <ScalarProperty Name="CATEGORIA" ColumnName="CATEGORIA" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="DT_CADASTRO" ColumnName="DT_CADASTRO" />
+          <ScalarProperty Name="ID_LIVRO" ColumnName="ID_LIVRO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CONDICAO_COMERCIAL">
+      <EntityTypeMapping TypeName="EBSAModel.TB_CONDICAO_COMERCIAL">
+        <MappingFragment StoreEntitySet="TB_CONDICAO_COMERCIAL">
+          <ScalarProperty Name="ID_CONDICAO" ColumnName="ID_CONDICAO" />
+          <ScalarProperty Name="COD_EBSA" ColumnName="COD_EBSA" />
+          <ScalarProperty Name="PRECO" ColumnName="PRECO" />
+          <ScalarProperty Name="DT_ALTERACAO" ColumnName="DT_ALTERACAO" />
+          <ScalarProperty Name="DT_LIBERACAO" ColumnName="DT_LIBERACAO" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+          <ScalarProperty Name="ID_HISTORICO" ColumnName="ID_HISTORICO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CONSULTOR_REGIAO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_CONSULTOR_REGIAO">
+        <MappingFragment StoreEntitySet="TB_CONSULTOR_REGIAO">
+          <ScalarProperty Name="ID_CONSULTOR_REGIAO" ColumnName="ID_CONSULTOR_REGIAO" />
+          <ScalarProperty Name="ID_CONSULTOR" ColumnName="ID_CONSULTOR" />
+          <ScalarProperty Name="ID_REGIAO" ColumnName="ID_REGIAO" />
+          <ScalarProperty Name="DT_CADASTRO" ColumnName="DT_CADASTRO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CONTEUDO_PP">
+      <EntityTypeMapping TypeName="EBSAModel.TB_CONTEUDO_PP">
+        <MappingFragment StoreEntitySet="TB_CONTEUDO_PP">
+          <ScalarProperty Name="ID_CONTEUDO" ColumnName="ID_CONTEUDO" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="CAMINHO" ColumnName="CAMINHO" />
+          <ScalarProperty Name="NOME_GUID" ColumnName="NOME_GUID" />
+          <ScalarProperty Name="USUARIO" ColumnName="USUARIO" />
+          <ScalarProperty Name="DT_CADASTRO" ColumnName="DT_CADASTRO" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+          <ScalarProperty Name="PRIMEIRA_PAGINA" ColumnName="PRIMEIRA_PAGINA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CONTROLE_IMPRESSAO_PRODUTO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_CONTROLE_IMPRESSAO_PRODUTO">
+        <MappingFragment StoreEntitySet="TB_CONTROLE_IMPRESSAO_PRODUTO">
+          <ScalarProperty Name="ID_CONTROLE_IMPRESSAO" ColumnName="ID_CONTROLE_IMPRESSAO" />
+          <ScalarProperty Name="ID_PRODUTO" ColumnName="ID_PRODUTO" />
+          <ScalarProperty Name="CONT_IMP_EDICAO" ColumnName="CONT_IMP_EDICAO" />
+          <ScalarProperty Name="CONT_IMP_GRAFICA" ColumnName="CONT_IMP_GRAFICA" />
+          <ScalarProperty Name="CONT_IMP_IMPRESSAO" ColumnName="CONT_IMP_IMPRESSAO" />
+          <ScalarProperty Name="CONT_IMP_DATA" ColumnName="CONT_IMP_DATA" />
+          <ScalarProperty Name="CONT_IMP_TIRAGEM" ColumnName="CONT_IMP_TIRAGEM" />
+          <ScalarProperty Name="CONT_IMP_OBS" ColumnName="CONT_IMP_OBS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_ENCARTE_PRODUTO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_ENCARTE_PRODUTO">
+        <MappingFragment StoreEntitySet="TB_ENCARTE_PRODUTO">
+          <ScalarProperty Name="ID_ENCARTE" ColumnName="ID_ENCARTE" />
+          <ScalarProperty Name="ID_PRODUTO" ColumnName="ID_PRODUTO" />
+          <ScalarProperty Name="ENCARTE_TIPO" ColumnName="ENCARTE_TIPO" />
+          <ScalarProperty Name="ENCARTE_ACABAMENTO" ColumnName="ENCARTE_ACABAMENTO" />
+          <ScalarProperty Name="ENCARTE_PAPEL" ColumnName="ENCARTE_PAPEL" />
+          <ScalarProperty Name="ENCARTE_GRAMATURA" ColumnName="ENCARTE_GRAMATURA" />
+          <ScalarProperty Name="ENCARTE_FORMATO" ColumnName="ENCARTE_FORMATO" />
+          <ScalarProperty Name="ENCARTE_COR" ColumnName="ENCARTE_COR" />
+          <ScalarProperty Name="ENCARTE_OUTROS" ColumnName="ENCARTE_OUTROS" />
+          <ScalarProperty Name="ENCARTE_PAGINAS" ColumnName="ENCARTE_PAGINAS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_FILIAL">
+      <EntityTypeMapping TypeName="EBSAModel.TB_FILIAL">
+        <MappingFragment StoreEntitySet="TB_FILIAL">
+          <ScalarProperty Name="ID_FILIAL" ColumnName="ID_FILIAL" />
+          <ScalarProperty Name="CODIGO_FILIAL" ColumnName="CODIGO_FILIAL" />
+          <ScalarProperty Name="NOME_FANTASIA" ColumnName="NOME_FANTASIA" />
+          <ScalarProperty Name="CNPJ" ColumnName="CNPJ" />
+          <ScalarProperty Name="MUNICIPIO" ColumnName="MUNICIPIO" />
+          <ScalarProperty Name="UF" ColumnName="UF" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_GERENTE_SUPERVISOR">
+      <EntityTypeMapping TypeName="EBSAModel.TB_GERENTE_SUPERVISOR">
+        <MappingFragment StoreEntitySet="TB_GERENTE_SUPERVISOR">
+          <ScalarProperty Name="ID_GERENTE_SUPERVISOR" ColumnName="ID_GERENTE_SUPERVISOR" />
+          <ScalarProperty Name="ID_GERENTE" ColumnName="ID_GERENTE" />
+          <ScalarProperty Name="ID_SUPERVISOR" ColumnName="ID_SUPERVISOR" />
+          <ScalarProperty Name="DT_CADASTRO" ColumnName="DT_CADASTRO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_GRUPO_PAINEL">
+      <EntityTypeMapping TypeName="EBSAModel.TB_GRUPO_PAINEL">
+        <MappingFragment StoreEntitySet="TB_GRUPO_PAINEL">
+          <ScalarProperty Name="ID_GRUPO_PAINEL" ColumnName="ID_GRUPO_PAINEL" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="DT_CADASTRO" ColumnName="DT_CADASTRO" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_GRUPO_PROTHEUS">
+      <EntityTypeMapping TypeName="EBSAModel.TB_GRUPO_PROTHEUS">
+        <MappingFragment StoreEntitySet="TB_GRUPO_PROTHEUS">
+          <ScalarProperty Name="ID_GRUPO" ColumnName="ID_GRUPO" />
+          <ScalarProperty Name="CODIGO_GRUPO" ColumnName="CODIGO_GRUPO" />
+          <ScalarProperty Name="DESCRICAO_GRUPO" ColumnName="DESCRICAO_GRUPO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_HIERARQUIA_PAINEL">
+      <EntityTypeMapping TypeName="EBSAModel.TB_HIERARQUIA_PAINEL">
+        <MappingFragment StoreEntitySet="TB_HIERARQUIA_PAINEL">
+          <ScalarProperty Name="ID_HIERARQUIA" ColumnName="ID_HIERARQUIA" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="DT_CADASTRADO" ColumnName="DT_CADASTRADO" />
+          <ScalarProperty Name="NIVEL" ColumnName="NIVEL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_HISTORICO_IMPRESSAO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_HISTORICO_IMPRESSAO">
+        <MappingFragment StoreEntitySet="TB_HISTORICO_IMPRESSAO">
+          <ScalarProperty Name="ID_HISTORICO" ColumnName="ID_HISTORICO" />
+          <ScalarProperty Name="PRODUTO_ID" ColumnName="PRODUTO_ID" />
+          <ScalarProperty Name="DT_IMPRESSAO" ColumnName="DT_IMPRESSAO" />
+          <ScalarProperty Name="DT_REGISTRO" ColumnName="DT_REGISTRO" />
+          <ScalarProperty Name="NUM_IMPRESSAO" ColumnName="NUM_IMPRESSAO" />
+          <ScalarProperty Name="NOME_GRAFICA" ColumnName="NOME_GRAFICA" />
+          <ScalarProperty Name="TIRAGEM" ColumnName="TIRAGEM" />
+          <ScalarProperty Name="OBS" ColumnName="OBS" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_JSON_LOG_INTEGRACAO_PROTHEUS">
+      <EntityTypeMapping TypeName="EBSAModel.TB_JSON_LOG_INTEGRACAO_PROTHEUS">
+        <MappingFragment StoreEntitySet="TB_JSON_LOG_INTEGRACAO_PROTHEUS">
+          <ScalarProperty Name="ID_JSON_LOG" ColumnName="ID_JSON_LOG" />
+          <ScalarProperty Name="URL_JSON" ColumnName="URL_JSON" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+          <ScalarProperty Name="DT_LOG" ColumnName="DT_LOG" />
+          <ScalarProperty Name="PROD_EBSA" ColumnName="PROD_EBSA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_LINHA_PAINEL_META">
+      <EntityTypeMapping TypeName="EBSAModel.TB_LINHA_PAINEL_META">
+        <MappingFragment StoreEntitySet="TB_LINHA_PAINEL_META">
+          <ScalarProperty Name="ID_LINHA_META" ColumnName="ID_LINHA_META" />
+          <ScalarProperty Name="ID_META" ColumnName="ID_META" />
+          <ScalarProperty Name="INDICADOR" ColumnName="INDICADOR" />
+          <ScalarProperty Name="META" ColumnName="META" />
+          <ScalarProperty Name="PESO" ColumnName="PESO" />
+          <ScalarProperty Name="ID_ORIGEM" ColumnName="ID_ORIGEM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_LIVRO_ELVIS">
+      <EntityTypeMapping TypeName="EBSAModel.TB_LIVRO_ELVIS">
+        <MappingFragment StoreEntitySet="TB_LIVRO_ELVIS">
+          <ScalarProperty Name="ID_LIVRO" ColumnName="ID_LIVRO" />
+          <ScalarProperty Name="CODIGO_LIVRO" ColumnName="CODIGO_LIVRO" />
+          <ScalarProperty Name="DT_CADASTRO" ColumnName="DT_CADASTRO" />
+          <ScalarProperty Name="TITULO" ColumnName="TITULO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_META_ANUAL">
+      <EntityTypeMapping TypeName="EBSAModel.TB_META_ANUAL">
+        <MappingFragment StoreEntitySet="TB_META_ANUAL">
+          <ScalarProperty Name="ID_META_ANUAL" ColumnName="ID_META_ANUAL" />
+          <ScalarProperty Name="ID_USUARIO_RM" ColumnName="ID_USUARIO_RM" />
+          <ScalarProperty Name="ID_LINHA_META" ColumnName="ID_LINHA_META" />
+          <ScalarProperty Name="ID_UNIDADE_MEDIDA_PAINEL" ColumnName="ID_UNIDADE_MEDIDA_PAINEL" />
+          <ScalarProperty Name="TOTAL" ColumnName="TOTAL" />
+          <ScalarProperty Name="VALOR_MINIMO" ColumnName="VALOR_MINIMO" />
+          <ScalarProperty Name="VALOR_MAXIMO" ColumnName="VALOR_MAXIMO" />
+          <ScalarProperty Name="DATA_CRIACAO" ColumnName="DATA_CRIACAO" />
+          <ScalarProperty Name="DATA_ALTERACAO" ColumnName="DATA_ALTERACAO" />
+          <ScalarProperty Name="ID_STATUS" ColumnName="ID_STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_META_FINANCEIRA">
+      <EntityTypeMapping TypeName="EBSAModel.TB_META_FINANCEIRA">
+        <MappingFragment StoreEntitySet="TB_META_FINANCEIRA">
+          <ScalarProperty Name="ID_META_FINANCEIRA" ColumnName="ID_META_FINANCEIRA" />
+          <ScalarProperty Name="ID_USUARIO_RM" ColumnName="ID_USUARIO_RM" />
+          <ScalarProperty Name="ID_LINHA_META" ColumnName="ID_LINHA_META" />
+          <ScalarProperty Name="META_RECEITA_LIQUIDA" ColumnName="META_RECEITA_LIQUIDA" />
+          <ScalarProperty Name="VALOR_RECEBIMENTO" ColumnName="VALOR_RECEBIMENTO" />
+          <ScalarProperty Name="OBSERVACAO" ColumnName="OBSERVACAO" />
+          <ScalarProperty Name="DATA_CRIACAO" ColumnName="DATA_CRIACAO" />
+          <ScalarProperty Name="DATA_ALTERACAO" ColumnName="DATA_ALTERACAO" />
+          <ScalarProperty Name="ID_STATUS" ColumnName="ID_STATUS" />
+          <ScalarProperty Name="ADD_META_RECEITA_LIQUIDA_CALC" ColumnName="ADD META_RECEITA_LIQUIDA_CALC" />
+          <ScalarProperty Name="META_RECEITA_LIQUIDA_CALC" ColumnName="META_RECEITA_LIQUIDA_CALC" />
+          <ScalarProperty Name="ID_PERIODO" ColumnName="ID_PERIODO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_META_REAL">
+      <EntityTypeMapping TypeName="EBSAModel.TB_META_REAL">
+        <MappingFragment StoreEntitySet="TB_META_REAL">
+          <ScalarProperty Name="ID_META_REAL" ColumnName="ID_META_REAL" />
+          <ScalarProperty Name="ID_USUARIO_RM" ColumnName="ID_USUARIO_RM" />
+          <ScalarProperty Name="ID_LINHA_META" ColumnName="ID_LINHA_META" />
+          <ScalarProperty Name="REALIZADO" ColumnName="REALIZADO" />
+          <ScalarProperty Name="PONDERADO" ColumnName="PONDERADO" />
+          <ScalarProperty Name="DATA_CRIACAO" ColumnName="DATA_CRIACAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_MIDIA_PRODUTO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_MIDIA_PRODUTO">
+        <MappingFragment StoreEntitySet="TB_MIDIA_PRODUTO">
+          <ScalarProperty Name="ID_MIDIA" ColumnName="ID_MIDIA" />
+          <ScalarProperty Name="ID_PRODUTO" ColumnName="ID_PRODUTO" />
+          <ScalarProperty Name="MIDIA_TIPO" ColumnName="MIDIA_TIPO" />
+          <ScalarProperty Name="MIDIA_OUTROS" ColumnName="MIDIA_OUTROS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_MIOLO_PRODUTO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_MIOLO_PRODUTO">
+        <MappingFragment StoreEntitySet="TB_MIOLO_PRODUTO">
+          <ScalarProperty Name="ID_MIOLO" ColumnName="ID_MIOLO" />
+          <ScalarProperty Name="ID_PRODUTO" ColumnName="ID_PRODUTO" />
+          <ScalarProperty Name="MIOLO_PAGINAS" ColumnName="MIOLO_PAGINAS" />
+          <ScalarProperty Name="MIOLO_FORM_ALT" ColumnName="MIOLO_FORM_ALT" />
+          <ScalarProperty Name="MIOLO_FORM_LARG" ColumnName="MIOLO_FORM_LARG" />
+          <ScalarProperty Name="MIOLO_FORM_PESO" ColumnName="MIOLO_FORM_PESO" />
+          <ScalarProperty Name="MIOLO_CORES" ColumnName="MIOLO_CORES" />
+          <ScalarProperty Name="MIOLO_TIPO_PAPEL" ColumnName="MIOLO_TIPO_PAPEL" />
+          <ScalarProperty Name="MIOLO_GRAMATURA" ColumnName="MIOLO_GRAMATURA" />
+          <ScalarProperty Name="MIOLO_OBS" ColumnName="MIOLO_OBS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_ORIGEM">
+      <EntityTypeMapping TypeName="EBSAModel.TB_ORIGEM">
+        <MappingFragment StoreEntitySet="TB_ORIGEM">
+          <ScalarProperty Name="ID_ORIGEM" ColumnName="ID_ORIGEM" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_ORIGEM_DADOS_PAINEL_META">
+      <EntityTypeMapping TypeName="EBSAModel.TB_ORIGEM_DADOS_PAINEL_META">
+        <MappingFragment StoreEntitySet="TB_ORIGEM_DADOS_PAINEL_META">
+          <ScalarProperty Name="ID_ORIGEM" ColumnName="ID_ORIGEM" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="SCRIPT" ColumnName="SCRIPT" />
+          <ScalarProperty Name="ID_PERIODO" ColumnName="ID_PERIODO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_PARTE_LIVRO_ELVIS">
+      <EntityTypeMapping TypeName="EBSAModel.TB_PARTE_LIVRO_ELVIS">
+        <MappingFragment StoreEntitySet="TB_PARTE_LIVRO_ELVIS">
+          <ScalarProperty Name="ID_PARTE_LIVRO_ELVIS" ColumnName="ID_PARTE_LIVRO_ELVIS" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="DT_CADASTRO" ColumnName="DT_CADASTRO" />
+          <ScalarProperty Name="ID_LIVRO" ColumnName="ID_LIVRO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_PERIODO_META">
+      <EntityTypeMapping TypeName="EBSAModel.TB_PERIODO_META">
+        <MappingFragment StoreEntitySet="TB_PERIODO_META">
+          <ScalarProperty Name="ID_PERIODO" ColumnName="ID_PERIODO" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="DATA_INICIO" ColumnName="DATA_INICIO" />
+          <ScalarProperty Name="DATA_FIM" ColumnName="DATA_FIM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_PERMISSAO_REQUISICAO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_PERMISSAO_REQUISICAO">
+        <MappingFragment StoreEntitySet="TB_PERMISSAO_REQUISICAO">
+          <ScalarProperty Name="ID_PERMISSAO_USUARIO" ColumnName="ID_PERMISSAO_USUARIO" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+          <ScalarProperty Name="APROVA_REQUISICAO_SUPERVISOR" ColumnName="APROVA_REQUISICAO_SUPERVISOR" />
+          <ScalarProperty Name="REPROVA_REQUISICAO_SUPERVISOR" ColumnName="REPROVA_REQUISICAO_SUPERVISOR" />
+          <ScalarProperty Name="CANCELA_REQUISICAO_SUPERVISOR" ColumnName="CANCELA_REQUISICAO_SUPERVISOR" />
+          <ScalarProperty Name="APROVA_REQUISICAO_GERENTE" ColumnName="APROVA_REQUISICAO_GERENTE" />
+          <ScalarProperty Name="REPROVA_REQUISICAO_GERENTE" ColumnName="REPROVA_REQUISICAO_GERENTE" />
+          <ScalarProperty Name="CANCELA_REQUISICAO_GERENTE" ColumnName="CANCELA_REQUISICAO_GERENTE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_PLATAFORMA_MIDIA">
+      <EntityTypeMapping TypeName="EBSAModel.TB_PLATAFORMA_MIDIA">
+        <MappingFragment StoreEntitySet="TB_PLATAFORMA_MIDIA">
+          <ScalarProperty Name="ID_PLATAFORMA_MIDIA" ColumnName="ID_PLATAFORMA_MIDIA" />
+          <ScalarProperty Name="ID_MIDIA" ColumnName="ID_MIDIA" />
+          <ScalarProperty Name="ID_PLATAFORMA" ColumnName="ID_PLATAFORMA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_PREFERENCIAS_RELATORIO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_PREFERENCIAS_RELATORIO">
+        <MappingFragment StoreEntitySet="TB_PREFERENCIAS_RELATORIO">
+          <ScalarProperty Name="ID_PREFERENCIA" ColumnName="ID_PREFERENCIA" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+          <ScalarProperty Name="PREFERENCIA" ColumnName="PREFERENCIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_PRODUTO_EPUB">
+      <EntityTypeMapping TypeName="EBSAModel.TB_PRODUTO_EPUB">
+        <MappingFragment StoreEntitySet="TB_PRODUTO_EPUB">
+          <ScalarProperty Name="ID_PRODUTO_EPUB" ColumnName="ID_PRODUTO_EPUB" />
+          <ScalarProperty Name="NOME_EPUB" ColumnName="NOME_EPUB" />
+          <ScalarProperty Name="CAMINHO_ARQUIVO" ColumnName="CAMINHO_ARQUIVO" />
+          <ScalarProperty Name="PROD_ID" ColumnName="PROD_ID" />
+          <ScalarProperty Name="PROD_EBSA" ColumnName="PROD_EBSA" />
+          <ScalarProperty Name="DT_CADASTRO" ColumnName="DT_CADASTRO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_PRODUTO_IMAGEM_CAPA">
+      <EntityTypeMapping TypeName="EBSAModel.TB_PRODUTO_IMAGEM_CAPA">
+        <MappingFragment StoreEntitySet="TB_PRODUTO_IMAGEM_CAPA">
+          <ScalarProperty Name="ID_PRODUTO_CAPA" ColumnName="ID_PRODUTO_CAPA" />
+          <ScalarProperty Name="NOME_CAPA" ColumnName="NOME_CAPA" />
+          <ScalarProperty Name="CAMINHO_ARQUIVO" ColumnName="CAMINHO_ARQUIVO" />
+          <ScalarProperty Name="PROD_ID" ColumnName="PROD_ID" />
+          <ScalarProperty Name="PROD_EBSA" ColumnName="PROD_EBSA" />
+          <ScalarProperty Name="DT_CADASTRO" ColumnName="DT_CADASTRO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_REGIAO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_REGIAO">
+        <MappingFragment StoreEntitySet="TB_REGIAO">
+          <ScalarProperty Name="ID_REGIAO" ColumnName="ID_REGIAO" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="UF" ColumnName="UF" />
+          <ScalarProperty Name="DT_CADASTRO" ColumnName="DT_CADASTRO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_REGIAO_ATUACAO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_REGIAO_ATUACAO">
+        <MappingFragment StoreEntitySet="TB_REGIAO_ATUACAO">
+          <ScalarProperty Name="ID_REGIAO_ATUACAO" ColumnName="ID_REGIAO_ATUACAO" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="CODIGO_PROTHEUS" ColumnName="CODIGO_PROTHEUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_REGRA_ACESSO_ABA_CADASTRO_PRODUTO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_REGRA_ACESSO_ABA_CADASTRO_PRODUTO">
+        <MappingFragment StoreEntitySet="TB_REGRA_ACESSO_ABA_CADASTRO_PRODUTO">
+          <ScalarProperty Name="ID_REGRA_ABA" ColumnName="ID_REGRA_ABA" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+          <ScalarProperty Name="ID_ABA" ColumnName="ID_ABA" />
+          <ScalarProperty Name="ACESSO_MODIFICACAO" ColumnName="ACESSO_MODIFICACAO" />
+          <ScalarProperty Name="ACESSO_VISUALIZACAO" ColumnName="ACESSO_VISUALIZACAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_REGRA_ACESSO_MENU_CADASTRO_PRODUTO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_REGRA_ACESSO_MENU_CADASTRO_PRODUTO">
+        <MappingFragment StoreEntitySet="TB_REGRA_ACESSO_MENU_CADASTRO_PRODUTO">
+          <ScalarProperty Name="ID_REGRA_MENU" ColumnName="ID_REGRA_MENU" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+          <ScalarProperty Name="ACESSO_MODIFICACAO" ColumnName="ACESSO_MODIFICACAO" />
+          <ScalarProperty Name="ID_MENU" ColumnName="ID_MENU" />
+          <ScalarProperty Name="ACESSO_VISUALIZACAO" ColumnName="ACESSO_VISUALIZACAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_RESULTADO_PAGAMENTO_META">
+      <EntityTypeMapping TypeName="EBSAModel.TB_RESULTADO_PAGAMENTO_META">
+        <MappingFragment StoreEntitySet="TB_RESULTADO_PAGAMENTO_META">
+          <ScalarProperty Name="ID_RESULTADO_PAGAMENTO" ColumnName="ID_RESULTADO_PAGAMENTO" />
+          <ScalarProperty Name="PORCENTAGEM_RESULTADO" ColumnName="PORCENTAGEM_RESULTADO" />
+          <ScalarProperty Name="PORCENTAGEM_PAGAMENTO" ColumnName="PORCENTAGEM_PAGAMENTO" />
+          <ScalarProperty Name="DT_CADASTRO" ColumnName="DT_CADASTRO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_SECAO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_SECAO">
+        <MappingFragment StoreEntitySet="TB_SECAO">
+          <ScalarProperty Name="ID_SECAO" ColumnName="ID_SECAO" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="CODIGO_SECAO" ColumnName="CODIGO_SECAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_SEGMENTO_PROTHEUS">
+      <EntityTypeMapping TypeName="EBSAModel.TB_SEGMENTO_PROTHEUS">
+        <MappingFragment StoreEntitySet="TB_SEGMENTO_PROTHEUS">
+          <ScalarProperty Name="ID_SEGMENTO" ColumnName="ID_SEGMENTO" />
+          <ScalarProperty Name="CODIGO_SEGMENTO" ColumnName="CODIGO_SEGMENTO" />
+          <ScalarProperty Name="DESCRICAO_SEGMENTO" ColumnName="DESCRICAO_SEGMENTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_SELO_PROTHEUS">
+      <EntityTypeMapping TypeName="EBSAModel.TB_SELO_PROTHEUS">
+        <MappingFragment StoreEntitySet="TB_SELO_PROTHEUS">
+          <ScalarProperty Name="ID_SELO" ColumnName="ID_SELO" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="CHAVE_GRUPO" ColumnName="CHAVE_GRUPO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_SISTEMA_ORIGEM">
+      <EntityTypeMapping TypeName="EBSAModel.TB_SISTEMA_ORIGEM">
+        <MappingFragment StoreEntitySet="TB_SISTEMA_ORIGEM">
+          <ScalarProperty Name="ID_SISTEMA" ColumnName="ID_SISTEMA" />
+          <ScalarProperty Name="NOME_BANCO" ColumnName="NOME_BANCO" />
+          <ScalarProperty Name="DT_CADASTRO" ColumnName="DT_CADASTRO" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_STATUS_PAINEL">
+      <EntityTypeMapping TypeName="EBSAModel.TB_STATUS_PAINEL">
+        <MappingFragment StoreEntitySet="TB_STATUS_PAINEL">
+          <ScalarProperty Name="ID_STATUS" ColumnName="ID_STATUS" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="DT_CADASTRO" ColumnName="DT_CADASTRO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_SUPERVISOR_CONSULTOR">
+      <EntityTypeMapping TypeName="EBSAModel.TB_SUPERVISOR_CONSULTOR">
+        <MappingFragment StoreEntitySet="TB_SUPERVISOR_CONSULTOR">
+          <ScalarProperty Name="ID_SUPERVISOR_CONSULTOR" ColumnName="ID_SUPERVISOR_CONSULTOR" />
+          <ScalarProperty Name="ID_SUPERVISOR" ColumnName="ID_SUPERVISOR" />
+          <ScalarProperty Name="ID_CONSULTOR" ColumnName="ID_CONSULTOR" />
+          <ScalarProperty Name="DT_CADASTRO" ColumnName="DT_CADASTRO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_TABELA_ORIGEM">
+      <EntityTypeMapping TypeName="EBSAModel.TB_TABELA_ORIGEM">
+        <MappingFragment StoreEntitySet="TB_TABELA_ORIGEM">
+          <ScalarProperty Name="ID_TABELA" ColumnName="ID_TABELA" />
+          <ScalarProperty Name="NOME_TABELA" ColumnName="NOME_TABELA" />
+          <ScalarProperty Name="DT_CADASTRO" ColumnName="DT_CADASTRO" />
+          <ScalarProperty Name="ID_SISTEMA" ColumnName="ID_SISTEMA" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_TIPO_ESPEC">
+      <EntityTypeMapping TypeName="EBSAModel.TB_TIPO_ESPEC">
+        <MappingFragment StoreEntitySet="TB_TIPO_ESPEC">
+          <ScalarProperty Name="ID_TIPO" ColumnName="ID_TIPO" />
+          <ScalarProperty Name="ESPEC_TIPO" ColumnName="ESPEC_TIPO" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_TIPO_PRODUTO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_TIPO_PRODUTO">
+        <MappingFragment StoreEntitySet="TB_TIPO_PRODUTO">
+          <ScalarProperty Name="ID_TIPO_PRODUTO" ColumnName="ID_TIPO_PRODUTO" />
+          <ScalarProperty Name="SIGLA" ColumnName="SIGLA" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_UNIDADE_MEDIDA">
+      <EntityTypeMapping TypeName="EBSAModel.TB_UNIDADE_MEDIDA">
+        <MappingFragment StoreEntitySet="TB_UNIDADE_MEDIDA">
+          <ScalarProperty Name="ID_UNIDADE_MEDIDA" ColumnName="ID_UNIDADE_MEDIDA" />
+          <ScalarProperty Name="SIGLA" ColumnName="SIGLA" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_UNIDADE_MEDIDA_PAINEL">
+      <EntityTypeMapping TypeName="EBSAModel.TB_UNIDADE_MEDIDA_PAINEL">
+        <MappingFragment StoreEntitySet="TB_UNIDADE_MEDIDA_PAINEL">
+          <ScalarProperty Name="ID_UNIDADE_MEDIDA_PAINEL" ColumnName="ID_UNIDADE_MEDIDA_PAINEL" />
+          <ScalarProperty Name="SIGLA" ColumnName="SIGLA" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_USUARIO_RM">
+      <EntityTypeMapping TypeName="EBSAModel.TB_USUARIO_RM">
+        <MappingFragment StoreEntitySet="TB_USUARIO_RM">
+          <ScalarProperty Name="ID_USUARIO_RM" ColumnName="ID_USUARIO_RM" />
+          <ScalarProperty Name="ID_CARGO" ColumnName="ID_CARGO" />
+          <ScalarProperty Name="ID_FILIAL" ColumnName="ID_FILIAL" />
+          <ScalarProperty Name="ID_REGIAO_ATUACAO" ColumnName="ID_REGIAO_ATUACAO" />
+          <ScalarProperty Name="DATA_INICIO" ColumnName="DATA_INICIO" />
+          <ScalarProperty Name="DATA_FIM" ColumnName="DATA_FIM" />
+          <ScalarProperty Name="ID_SECAO" ColumnName="ID_SECAO" />
+          <ScalarProperty Name="CODIGO_FILIAL" ColumnName="CODIGO_FILIAL" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="NUMERO_CHAPA" ColumnName="NUMERO_CHAPA" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="CODIGO_PROTHEUS" ColumnName="CODIGO_PROTHEUS" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_USUARIO_RM_INTEGRACAO">
+      <EntityTypeMapping TypeName="EBSAModel.TB_USUARIO_RM_INTEGRACAO">
+        <MappingFragment StoreEntitySet="TB_USUARIO_RM_INTEGRACAO">
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+          <ScalarProperty Name="CODIGO_FILIAL" ColumnName="CODIGO_FILIAL" />
+          <ScalarProperty Name="NOME_FILIAL" ColumnName="NOME_FILIAL" />
+          <ScalarProperty Name="CHAPA" ColumnName="CHAPA" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="CODFUNCAO" ColumnName="CODFUNCAO" />
+          <ScalarProperty Name="FUNCAO" ColumnName="FUNCAO" />
+          <ScalarProperty Name="CODSECAO" ColumnName="CODSECAO" />
+          <ScalarProperty Name="DESCRICAO_SECAO" ColumnName="DESCRICAO_SECAO" />
+          <ScalarProperty Name="DT_INTEGRACAO" ColumnName="DT_INTEGRACAO" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="DATA_INICIO" ColumnName="DATA_INICIO" />
+          <ScalarProperty Name="DATA_DEMISSAO" ColumnName="DATA_DEMISSAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIOs">
+      <EntityTypeMapping TypeName="EBSAModel.USUARIO">
+        <MappingFragment StoreEntitySet="USUARIO">
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="CONTA_AD" ColumnName="CONTA_AD" />
+          <ScalarProperty Name="ID_GRUPO" ColumnName="ID_GRUPO" />
+          <ScalarProperty Name="ID_FILIAL" ColumnName="ID_FILIAL" />
+          <ScalarProperty Name="RAMAL" ColumnName="RAMAL" />
+          <ScalarProperty Name="TELEFONE" ColumnName="TELEFONE" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+          <ScalarProperty Name="COD_USUARIO" ColumnName="COD_USUARIO" />
+          <ScalarProperty Name="ID_NIVEL" ColumnName="ID_NIVEL" />
+          <ScalarProperty Name="ID_CARGO" ColumnName="ID_CARGO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIO_API_PRODUTO">
+      <EntityTypeMapping TypeName="EBSAModel.USUARIO_API_PRODUTO">
+        <MappingFragment StoreEntitySet="USUARIO_API_PRODUTO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="USUARIO" ColumnName="USUARIO" />
+          <ScalarProperty Name="SENHA" ColumnName="SENHA" />
+          <ScalarProperty Name="ACESSO" ColumnName="ACESSO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIO_GRUPO">
+      <EntityTypeMapping TypeName="EBSAModel.USUARIO_GRUPO">
+        <MappingFragment StoreEntitySet="USUARIO_GRUPO">
+          <ScalarProperty Name="ID_USUARIO_GRUPO" ColumnName="ID_USUARIO_GRUPO" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+          <ScalarProperty Name="ID_GRUPO" ColumnName="ID_GRUPO" />
+          <ScalarProperty Name="DT_CADASTRO" ColumnName="DT_CADASTRO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANO_EDUCACAO">
+      <EntityTypeMapping TypeName="EBSAModel.ANO_EDUCACAO">
+        <MappingFragment StoreEntitySet="ANO_EDUCACAO">
+          <ScalarProperty Name="AEDU_ID" ColumnName="AEDU_ID" />
+          <ScalarProperty Name="AEDU_DESCRICAO" ColumnName="AEDU_DESCRICAO" />
+          <ScalarProperty Name="AEDU_SEGM" ColumnName="AEDU_SEGM" />
+          <ScalarProperty Name="ABREVIACAO" ColumnName="ABREVIACAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_A_TIPO_SISTEMA">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_A_TIPO_SISTEMA">
+        <MappingFragment StoreEntitySet="ANT_A_TIPO_SISTEMA">
+          <ScalarProperty Name="ID_TIPO_SISTEMA" ColumnName="ID_TIPO_SISTEMA" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="DOMINIO" ColumnName="DOMINIO" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_PRODUTO">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_PRODUTO">
+        <MappingFragment StoreEntitySet="ANT_PRODUTO">
+          <ScalarProperty Name="PROD_ID" ColumnName="PROD_ID" />
+          <ScalarProperty Name="PROD_CDIS" ColumnName="PROD_CDIS" />
+          <ScalarProperty Name="PROD_TEMA" ColumnName="PROD_TEMA" />
+          <ScalarProperty Name="PROD_DISC" ColumnName="PROD_DISC" />
+          <ScalarProperty Name="PROD_MERCADO" ColumnName="PROD_MERCADO" />
+          <ScalarProperty Name="PROD_PROGRAMA" ColumnName="PROD_PROGRAMA" />
+          <ScalarProperty Name="PROD_TIPO" ColumnName="PROD_TIPO" />
+          <ScalarProperty Name="PROD_SELO" ColumnName="PROD_SELO" />
+          <ScalarProperty Name="PROD_SEGM" ColumnName="PROD_SEGM" />
+          <ScalarProperty Name="PROD_AEDU" ColumnName="PROD_AEDU" />
+          <ScalarProperty Name="PROD_COMP" ColumnName="PROD_COMP" />
+          <ScalarProperty Name="PROD_FAIXAETARIA" ColumnName="PROD_FAIXAETARIA" />
+          <ScalarProperty Name="PROD_ASSU" ColumnName="PROD_ASSU" />
+          <ScalarProperty Name="PROD_GTEX" ColumnName="PROD_GTEX" />
+          <ScalarProperty Name="PROD_PREMIACAO" ColumnName="PROD_PREMIACAO" />
+          <ScalarProperty Name="PROD_VERSAO" ColumnName="PROD_VERSAO" />
+          <ScalarProperty Name="PROD_COLE" ColumnName="PROD_COLE" />
+          <ScalarProperty Name="PROD_TITULO" ColumnName="PROD_TITULO" />
+          <ScalarProperty Name="PROD_EDICAO" ColumnName="PROD_EDICAO" />
+          <ScalarProperty Name="PROD_MIDI" ColumnName="PROD_MIDI" />
+          <ScalarProperty Name="PROD_PAGINAS" ColumnName="PROD_PAGINAS" />
+          <ScalarProperty Name="PROD_PLAT" ColumnName="PROD_PLAT" />
+          <ScalarProperty Name="PROD_FORALTURA" ColumnName="PROD_FORALTURA" />
+          <ScalarProperty Name="PROD_FORLARGURA" ColumnName="PROD_FORLARGURA" />
+          <ScalarProperty Name="PROD_PESO" ColumnName="PROD_PESO" />
+          <ScalarProperty Name="PROD_PUBLICACAO" ColumnName="PROD_PUBLICACAO" />
+          <ScalarProperty Name="PROD_ISBN" ColumnName="PROD_ISBN" />
+          <ScalarProperty Name="PROD_STATUS" ColumnName="PROD_STATUS" />
+          <ScalarProperty Name="PROD_CODBARRAS" ColumnName="PROD_CODBARRAS" />
+          <ScalarProperty Name="PROD_SINOPSE" ColumnName="PROD_SINOPSE" />
+          <ScalarProperty Name="PROD_PRECO" ColumnName="PROD_PRECO" />
+          <ScalarProperty Name="PROD_EBSA" ColumnName="PROD_EBSA" />
+          <ScalarProperty Name="PROD_UNIDADE" ColumnName="PROD_UNIDADE" />
+          <ScalarProperty Name="PROD_CODPROT" ColumnName="PROD_CODPROT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_T_AUTORIA">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_T_AUTORIA">
+        <MappingFragment StoreEntitySet="ANT_T_AUTORIA">
+          <ScalarProperty Name="AUTO_ID" ColumnName="AUTO_ID" />
+          <ScalarProperty Name="AUTO_NOMECON" ColumnName="AUTO_NOMECON" />
+          <ScalarProperty Name="AUTO_NOMECAPA" ColumnName="AUTO_NOMECAPA" />
+          <ScalarProperty Name="AUTO_PFUN" ColumnName="AUTO_PFUN" />
+          <ScalarProperty Name="AUTO_DATALIBERA" ColumnName="AUTO_DATALIBERA" />
+          <ScalarProperty Name="AUTO_DATAVCTO" ColumnName="AUTO_DATAVCTO" />
+          <ScalarProperty Name="AUTO_RENOVAUTO" ColumnName="AUTO_RENOVAUTO" />
+          <ScalarProperty Name="AUTO_QTDEMESES" ColumnName="AUTO_QTDEMESES" />
+          <ScalarProperty Name="AUTO_PCRECEBDA" ColumnName="AUTO_PCRECEBDA" />
+          <ScalarProperty Name="AUTO_REPASSE" ColumnName="AUTO_REPASSE" />
+          <ScalarProperty Name="AUTO_DATALIMITE" ColumnName="AUTO_DATALIMITE" />
+          <ScalarProperty Name="AUTO_PROD" ColumnName="AUTO_PROD" />
+          <ScalarProperty Name="AUTO_NACIONALIDADE" ColumnName="AUTO_NACIONALIDADE" />
+          <ScalarProperty Name="AUTO_NATURALIDADE" ColumnName="AUTO_NATURALIDADE" />
+          <ScalarProperty Name="AUTO_REPARTEIMP" ColumnName="AUTO_REPARTEIMP" />
+          <ScalarProperty Name="AUTO_REPARTEREIMP" ColumnName="AUTO_REPARTEREIMP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_T_COLECAO">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_T_COLECAO">
+        <MappingFragment StoreEntitySet="ANT_T_COLECAO">
+          <ScalarProperty Name="COLE_ID" ColumnName="COLE_ID" />
+          <ScalarProperty Name="COLE_DESCRICAO" ColumnName="COLE_DESCRICAO" />
+          <ScalarProperty Name="COLE_TIPO" ColumnName="COLE_TIPO" />
+          <ScalarProperty Name="COLE_SEGM" ColumnName="COLE_SEGM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_T_HISTORICO_INTEGRACAO_PROTHEUS">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_T_HISTORICO_INTEGRACAO_PROTHEUS">
+        <MappingFragment StoreEntitySet="ANT_T_HISTORICO_INTEGRACAO_PROTHEUS">
+          <ScalarProperty Name="ID_REGISTRO" ColumnName="ID_REGISTRO" />
+          <ScalarProperty Name="ID_PRODUTO" ColumnName="ID_PRODUTO" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="MENSAGEM" ColumnName="MENSAGEM" />
+          <ScalarProperty Name="DATA" ColumnName="DATA" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_T_PRODUTO_TEMATRANS">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_T_PRODUTO_TEMATRANS">
+        <MappingFragment StoreEntitySet="ANT_T_PRODUTO_TEMATRANS">
+          <ScalarProperty Name="PTEM_ID" ColumnName="PTEM_ID" />
+          <ScalarProperty Name="PTEM_TEMA" ColumnName="PTEM_TEMA" />
+          <ScalarProperty Name="PTEM_PROD" ColumnName="PTEM_PROD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ANT_TIPO_ESPECIFICACAO">
+      <EntityTypeMapping TypeName="EBSAModel.ANT_TIPO_ESPECIFICACAO">
+        <MappingFragment StoreEntitySet="ANT_TIPO_ESPECIFICACAO">
+          <ScalarProperty Name="TESP_ID" ColumnName="TESP_ID" />
+          <ScalarProperty Name="TESP_DESCRICAO" ColumnName="TESP_DESCRICAO" />
+          <ScalarProperty Name="TESP_ETEC" ColumnName="TESP_ETEC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ASSUNTOes">
+      <EntityTypeMapping TypeName="EBSAModel.ASSUNTO">
+        <MappingFragment StoreEntitySet="ASSUNTO">
+          <ScalarProperty Name="ASSU_ID" ColumnName="ASSU_ID" />
+          <ScalarProperty Name="ASSU_DESCRICAO" ColumnName="ASSU_DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AUTORs">
+      <EntityTypeMapping TypeName="EBSAModel.AUTOR">
+        <MappingFragment StoreEntitySet="AUTOR">
+          <ScalarProperty Name="AUTOR_ID" ColumnName="AUTOR_ID" />
+          <ScalarProperty Name="AUTOR_NOME_CONTRATUAL" ColumnName="AUTOR_NOME_CONTRATUAL" />
+          <ScalarProperty Name="AUTOR_CAPA_COD_AUTOR" ColumnName="AUTOR_CAPA_COD_AUTOR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AUTORIAs">
+      <EntityTypeMapping TypeName="EBSAModel.AUTORIA">
+        <MappingFragment StoreEntitySet="AUTORIA">
+          <ScalarProperty Name="AUTO_ID" ColumnName="AUTO_ID" />
+          <ScalarProperty Name="AUTO_NOMECON" ColumnName="AUTO_NOMECON" />
+          <ScalarProperty Name="AUTO_NOMECAPA" ColumnName="AUTO_NOMECAPA" />
+          <ScalarProperty Name="AUTO_PFUN" ColumnName="AUTO_PFUN" />
+          <ScalarProperty Name="AUTO_DATALIBERA" ColumnName="AUTO_DATALIBERA" />
+          <ScalarProperty Name="AUTO_DATAVCTO" ColumnName="AUTO_DATAVCTO" />
+          <ScalarProperty Name="AUTO_RENOVAUTO" ColumnName="AUTO_RENOVAUTO" />
+          <ScalarProperty Name="AUTO_QTDEMESES" ColumnName="AUTO_QTDEMESES" />
+          <ScalarProperty Name="AUTO_PCRECEBDA" ColumnName="AUTO_PCRECEBDA" />
+          <ScalarProperty Name="AUTO_REPASSE" ColumnName="AUTO_REPASSE" />
+          <ScalarProperty Name="AUTO_DATALIMITE" ColumnName="AUTO_DATALIMITE" />
+          <ScalarProperty Name="AUTO_PROD" ColumnName="AUTO_PROD" />
+          <ScalarProperty Name="AUTO_NACIONALIDADE" ColumnName="AUTO_NACIONALIDADE" />
+          <ScalarProperty Name="AUTO_NATURALIDADE" ColumnName="AUTO_NATURALIDADE" />
+          <ScalarProperty Name="AUTO_REPARTEIMP" ColumnName="AUTO_REPARTEIMP" />
+          <ScalarProperty Name="AUTO_REPARTEREIMP" ColumnName="AUTO_REPARTEREIMP" />
+          <ScalarProperty Name="AUTO_COD_AUTOR" ColumnName="AUTO_COD_AUTOR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COLECAOs">
+      <EntityTypeMapping TypeName="EBSAModel.COLECAO">
+        <MappingFragment StoreEntitySet="COLECAO">
+          <ScalarProperty Name="COLE_DESCRICAO" ColumnName="COLE_DESCRICAO" />
+          <ScalarProperty Name="COLE_TIPO" ColumnName="COLE_TIPO" />
+          <ScalarProperty Name="COLE_SEGM" ColumnName="COLE_SEGM" />
+          <ScalarProperty Name="COLE_ID" ColumnName="COLE_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COMPOSICAOs">
+      <EntityTypeMapping TypeName="EBSAModel.COMPOSICAO">
+        <MappingFragment StoreEntitySet="COMPOSICAO">
+          <ScalarProperty Name="COMP_ID" ColumnName="COMP_ID" />
+          <ScalarProperty Name="COMP_DESCRICAO" ColumnName="COMP_DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CONTEUDO_DISCIPLINAR">
+      <EntityTypeMapping TypeName="EBSAModel.CONTEUDO_DISCIPLINAR">
+        <MappingFragment StoreEntitySet="CONTEUDO_DISCIPLINAR">
+          <ScalarProperty Name="CDIS_ID" ColumnName="CDIS_ID" />
+          <ScalarProperty Name="CDIS_DESCRICAO" ColumnName="CDIS_DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DATA_ESPECIAL">
+      <EntityTypeMapping TypeName="EBSAModel.DATA_ESPECIAL">
+        <MappingFragment StoreEntitySet="DATA_ESPECIAL">
+          <ScalarProperty Name="DAES_ID" ColumnName="DAES_ID" />
+          <ScalarProperty Name="DAES_DIA" ColumnName="DAES_DIA" />
+          <ScalarProperty Name="DAES_DESCRICAO" ColumnName="DAES_DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DISCIPLINAs">
+      <EntityTypeMapping TypeName="EBSAModel.DISCIPLINA">
+        <MappingFragment StoreEntitySet="DISCIPLINA">
+          <ScalarProperty Name="DISC_ID" ColumnName="DISC_ID" />
+          <ScalarProperty Name="DISC_NOME" ColumnName="DISC_NOME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DISCIPLINA_TIPO">
+      <EntityTypeMapping TypeName="EBSAModel.DISCIPLINA_TIPO">
+        <MappingFragment StoreEntitySet="DISCIPLINA_TIPO">
+          <ScalarProperty Name="DTIP_ID" ColumnName="DTIP_ID" />
+          <ScalarProperty Name="DTIP_DISC" ColumnName="DTIP_DISC" />
+          <ScalarProperty Name="DTIP_TIPO" ColumnName="DTIP_TIPO" />
+          <ScalarProperty Name="DTIP_SEGM" ColumnName="DTIP_SEGM" />
+          <ScalarProperty Name="DTIP_AEDU" ColumnName="DTIP_AEDU" />
+          <ScalarProperty Name="DTIP_COMP" ColumnName="DTIP_COMP" />
+          <ScalarProperty Name="DTIP_SEQU" ColumnName="DTIP_SEQU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DOCUMENTOSAUTORIAs">
+      <EntityTypeMapping TypeName="EBSAModel.DOCUMENTOSAUTORIA">
+        <MappingFragment StoreEntitySet="DOCUMENTOSAUTORIA">
+          <ScalarProperty Name="DOC_ID" ColumnName="DOC_ID" />
+          <ScalarProperty Name="AUTO_ID" ColumnName="AUTO_ID" />
+          <ScalarProperty Name="CAMINHOARQUIVO" ColumnName="CAMINHOARQUIVO" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="CAMINHOLOCAL" ColumnName="CAMINHOLOCAL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ENVIO_APROVACAO">
+      <EntityTypeMapping TypeName="EBSAModel.ENVIO_APROVACAO">
+        <MappingFragment StoreEntitySet="ENVIO_APROVACAO">
+          <ScalarProperty Name="ENV_CONTADOR" ColumnName="ENV_CONTADOR" />
+          <ScalarProperty Name="DIG" ColumnName="DIG" />
+          <ScalarProperty Name="INCLUSAO_DT" ColumnName="INCLUSAO_DT" />
+          <ScalarProperty Name="NOME_ARQUIVO" ColumnName="NOME_ARQUIVO" />
+          <ScalarProperty Name="STATUS_EDITOR" ColumnName="STATUS_EDITOR" />
+          <ScalarProperty Name="EDITOR" ColumnName="EDITOR" />
+          <ScalarProperty Name="EDITOR_DT" ColumnName="EDITOR_DT" />
+          <ScalarProperty Name="AUTOR" ColumnName="AUTOR" />
+          <ScalarProperty Name="AUTOR_DT" ColumnName="AUTOR_DT" />
+          <ScalarProperty Name="STATUS_AUTOR" ColumnName="STATUS_AUTOR" />
+          <ScalarProperty Name="SEQUENCIA" ColumnName="SEQUENCIA" />
+          <ScalarProperty Name="IMAGEM" ColumnName="IMAGEM" />
+          <ScalarProperty Name="LEGENDA_AUTOR" ColumnName="LEGENDA_AUTOR" />
+          <ScalarProperty Name="OBS" ColumnName="OBS" />
+          <ScalarProperty Name="ENVIO_APROVACAO_CONTADOR" ColumnName="ENVIO_APROVACAO_CONTADOR" />
+          <ScalarProperty Name="LEGENDA_OLD" ColumnName="LEGENDA_OLD" />
+          <ScalarProperty Name="OBS_AUTOR" ColumnName="OBS_AUTOR" />
+          <ScalarProperty Name="OBS_EDITOR" ColumnName="OBS_EDITOR" />
+          <ScalarProperty Name="ILUSTRADOR" ColumnName="ILUSTRADOR" />
+          <ScalarProperty Name="ILUSTRADOR_USUARIO_LIBERACAO" ColumnName="ILUSTRADOR_USUARIO_LIBERACAO" />
+          <ScalarProperty Name="ILUSTRADOR_DATA_LIBERACAO" ColumnName="ILUSTRADOR_DATA_LIBERACAO" />
+          <ScalarProperty Name="ILUSTRADOR_USUARIO_REPROVA" ColumnName="ILUSTRADOR_USUARIO_REPROVA" />
+          <ScalarProperty Name="ILUSTRADOR_DATA_REPROVA" ColumnName="ILUSTRADOR_DATA_REPROVA" />
+          <ScalarProperty Name="ILUSTRADOR_MOTV_REPROVA" ColumnName="ILUSTRADOR_MOTV_REPROVA" />
+          <ScalarProperty Name="ILUSTRADOR_IMG_OBS" ColumnName="ILUSTRADOR_IMG_OBS" />
+          <ScalarProperty Name="ILUSTRADOR_IMG_OBS_LIBERA" ColumnName="ILUSTRADOR_IMG_OBS_LIBERA" />
+          <ScalarProperty Name="LINK" ColumnName="LINK" />
+          <ScalarProperty Name="ICONO_MOTV_REPROVA" ColumnName="ICONO_MOTV_REPROVA" />
+          <ScalarProperty Name="ICONO_DATA_REPROVA" ColumnName="ICONO_DATA_REPROVA" />
+          <ScalarProperty Name="ICONO_USUARIO_REPROVA" ColumnName="ICONO_USUARIO_REPROVA" />
+          <ScalarProperty Name="IMAGEM_ALTURA" ColumnName="IMAGEM_ALTURA" />
+          <ScalarProperty Name="IMAGEM_LARGURA" ColumnName="IMAGEM_LARGURA" />
+          <ScalarProperty Name="LEGENDA" ColumnName="LEGENDA" />
+          <ScalarProperty Name="ID_ELVIS" ColumnName="ID_ELVIS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ENVIO_OBRA_ELVIS">
+      <EntityTypeMapping TypeName="EBSAModel.ENVIO_OBRA_ELVIS">
+        <MappingFragment StoreEntitySet="ENVIO_OBRA_ELVIS">
+          <ScalarProperty Name="OBRA" ColumnName="OBRA" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+          <ScalarProperty Name="EMISSAO" ColumnName="EMISSAO" />
+          <ScalarProperty Name="DIG" ColumnName="DIG" />
+          <ScalarProperty Name="NOME_ARQUIVO" ColumnName="NOME_ARQUIVO" />
+          <ScalarProperty Name="FORNECEDOR" ColumnName="FORNECEDOR" />
+          <ScalarProperty Name="LOJA" ColumnName="LOJA" />
+          <ScalarProperty Name="CODIGO" ColumnName="CODIGO" />
+          <ScalarProperty Name="DIGA" ColumnName="DIGA" />
+          <ScalarProperty Name="SITUACAO" ColumnName="SITUACAO" />
+          <ScalarProperty Name="OPERADOR" ColumnName="OPERADOR" />
+          <ScalarProperty Name="TAMANHO" ColumnName="TAMANHO" />
+          <ScalarProperty Name="ENV_CONTADOR" ColumnName="ENV_CONTADOR" />
+          <ScalarProperty Name="VALOR" ColumnName="VALOR" />
+          <ScalarProperty Name="AUTORIZACAO" ColumnName="AUTORIZACAO" />
+          <ScalarProperty Name="TEXTO" ColumnName="TEXTO" />
+          <ScalarProperty Name="IMAGEM" ColumnName="IMAGEM" />
+          <ScalarProperty Name="TEXTO_A" ColumnName="TEXTO_A" />
+          <ScalarProperty Name="USUARIO" ColumnName="USUARIO" />
+          <ScalarProperty Name="MOVIMENTADO" ColumnName="MOVIMENTADO" />
+          <ScalarProperty Name="ORIGEM" ColumnName="ORIGEM" />
+          <ScalarProperty Name="LEG_FIM" ColumnName="LEG_FIM" />
+          <ScalarProperty Name="REFERENCIA" ColumnName="REFERENCIA" />
+          <ScalarProperty Name="VENCIMENTO" ColumnName="VENCIMENTO" />
+          <ScalarProperty Name="REQUER_AUTOR" ColumnName="REQUER_AUTOR" />
+          <ScalarProperty Name="OBRA_ANTIGA" ColumnName="OBRA_ANTIGA" />
+          <ScalarProperty Name="LEGENDA_OLD" ColumnName="LEGENDA_OLD" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="DATA_ALTERACAO_DIGA" ColumnName="DATA_ALTERACAO_DIGA" />
+          <ScalarProperty Name="OBS" ColumnName="OBS" />
+          <ScalarProperty Name="LEGENDA_AUTOR_OLD" ColumnName="LEGENDA_AUTOR_OLD" />
+          <ScalarProperty Name="LICENC" ColumnName="LICENC" />
+          <ScalarProperty Name="CREDITO" ColumnName="CREDITO" />
+          <ScalarProperty Name="REQ_GERADA" ColumnName="REQ_GERADA" />
+          <ScalarProperty Name="REQ_DATA" ColumnName="REQ_DATA" />
+          <ScalarProperty Name="REQ_INCLUIDOR" ColumnName="REQ_INCLUIDOR" />
+          <ScalarProperty Name="REQUISICAO" ColumnName="REQUISICAO" />
+          <ScalarProperty Name="DATA_FINALIZADA" ColumnName="DATA_FINALIZADA" />
+          <ScalarProperty Name="QUEM_FINALIZOU" ColumnName="QUEM_FINALIZOU" />
+          <ScalarProperty Name="NF" ColumnName="NF" />
+          <ScalarProperty Name="COD_INTERNO" ColumnName="COD_INTERNO" />
+          <ScalarProperty Name="USERALT" ColumnName="USERALT" />
+          <ScalarProperty Name="DISCIPLINA" ColumnName="DISCIPLINA" />
+          <ScalarProperty Name="ANO" ColumnName="ANO" />
+          <ScalarProperty Name="ENTRA_GALERIA_IMAGEM" ColumnName="ENTRA_GALERIA_IMAGEM" />
+          <ScalarProperty Name="PORTAL" ColumnName="PORTAL" />
+          <ScalarProperty Name="UNIDADE" ColumnName="UNIDADE" />
+          <ScalarProperty Name="PAGINA" ColumnName="PAGINA" />
+          <ScalarProperty Name="LEGENDA" ColumnName="LEGENDA" />
+          <ScalarProperty Name="OBS_ICONOGRAFIA" ColumnName="OBS_ICONOGRAFIA" />
+          <ScalarProperty Name="CONTRATO_GERADO" ColumnName="CONTRATO_GERADO" />
+          <ScalarProperty Name="CONTRATO_USUARIO" ColumnName="CONTRATO_USUARIO" />
+          <ScalarProperty Name="CONTRATO_INCLUIDO" ColumnName="CONTRATO_INCLUIDO" />
+          <ScalarProperty Name="CONTRATO" ColumnName="CONTRATO" />
+          <ScalarProperty Name="LEGENDA_AUTOR_OLD2" ColumnName="LEGENDA_AUTOR_OLD2" />
+          <ScalarProperty Name="LEGENDA_AUTOR" ColumnName="LEGENDA_AUTOR" />
+          <ScalarProperty Name="INFO_DIAGRAMACAO" ColumnName="INFO_DIAGRAMACAO" />
+          <ScalarProperty Name="ID_ELVIS" ColumnName="ID_ELVIS" />
+          <ScalarProperty Name="NREQUISICAO" ColumnName="NREQUISICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESPECIFICACAO_TECNICA">
+      <EntityTypeMapping TypeName="EBSAModel.ESPECIFICACAO_TECNICA">
+        <MappingFragment StoreEntitySet="ESPECIFICACAO_TECNICA">
+          <ScalarProperty Name="ETEC_ID" ColumnName="ETEC_ID" />
+          <ScalarProperty Name="ETEC_DESCRICAO" ColumnName="ETEC_DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FAIXA_ETARIA">
+      <EntityTypeMapping TypeName="EBSAModel.FAIXA_ETARIA">
+        <MappingFragment StoreEntitySet="FAIXA_ETARIA">
+          <ScalarProperty Name="FETA_ID" ColumnName="FETA_ID" />
+          <ScalarProperty Name="FETA_DESCRICAO" ColumnName="FETA_DESCRICAO" />
+          <ScalarProperty Name="FETA_AEDU" ColumnName="FETA_AEDU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FASE_SERVICO">
+      <EntityTypeMapping TypeName="EBSAModel.FASE_SERVICO">
+        <MappingFragment StoreEntitySet="FASE_SERVICO">
+          <ScalarProperty Name="TIPO_SERVICO" ColumnName="TIPO_SERVICO" />
+          <ScalarProperty Name="SERVICO_DESCRICAO" ColumnName="SERVICO_DESCRICAO" />
+          <ScalarProperty Name="FASE" ColumnName="FASE" />
+          <ScalarProperty Name="SERVICO_OBS" ColumnName="SERVICO_OBS" />
+          <ScalarProperty Name="SERV_UNI" ColumnName="SERV_UNI" />
+          <ScalarProperty Name="CCUSTO" ColumnName="CCUSTO" />
+          <ScalarProperty Name="CONTADOR" ColumnName="CONTADOR" />
+          <ScalarProperty Name="DIG" ColumnName="DIG" />
+          <ScalarProperty Name="INCLUSAO" ColumnName="INCLUSAO" />
+          <ScalarProperty Name="DIG_ALT" ColumnName="DIG_ALT" />
+          <ScalarProperty Name="ALTERACAO" ColumnName="ALTERACAO" />
+          <ScalarProperty Name="REQUISICAO" ColumnName="REQUISICAO" />
+          <ScalarProperty Name="REQUISICAO_ORDEM" ColumnName="REQUISICAO_ORDEM" />
+          <ScalarProperty Name="GRUPO_CONT_JURIDICA" ColumnName="GRUPO_CONT_JURIDICA" />
+          <ScalarProperty Name="GRUPO_CONT_FISICA" ColumnName="GRUPO_CONT_FISICA" />
+          <ScalarProperty Name="EXCLUIDO" ColumnName="EXCLUIDO" />
+          <ScalarProperty Name="CCUSTOS_APROPRIACAO" ColumnName="CCUSTOS_APROPRIACAO" />
+          <ScalarProperty Name="CCUSTOS_REQUISICAO" ColumnName="CCUSTOS_REQUISICAO" />
+          <ScalarProperty Name="NATUREZA_PJ" ColumnName="NATUREZA_PJ" />
+          <ScalarProperty Name="NATUREZA_PF" ColumnName="NATUREZA_PF" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FichaTecnicas">
+      <EntityTypeMapping TypeName="EBSAModel.FichaTecnica">
+        <MappingFragment StoreEntitySet="FichaTecnica">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Prod_id" ColumnName="Prod_id" />
+          <ScalarProperty Name="Paginas" ColumnName="Paginas" />
+          <ScalarProperty Name="FormatoAlura" ColumnName="FormatoAlura" />
+          <ScalarProperty Name="FormatoLargura" ColumnName="FormatoLargura" />
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+          <ScalarProperty Name="MioloCores" ColumnName="MioloCores" />
+          <ScalarProperty Name="MioloTipoPapel" ColumnName="MioloTipoPapel" />
+          <ScalarProperty Name="MioloGramatura" ColumnName="MioloGramatura" />
+          <ScalarProperty Name="MioloObservacoes" ColumnName="MioloObservacoes" />
+          <ScalarProperty Name="CapaCores" ColumnName="CapaCores" />
+          <ScalarProperty Name="CapaTipoPapel" ColumnName="CapaTipoPapel" />
+          <ScalarProperty Name="CapaGramatura" ColumnName="CapaGramatura" />
+          <ScalarProperty Name="CapaOrelha" ColumnName="CapaOrelha" />
+          <ScalarProperty Name="CapaAcabamento" ColumnName="CapaAcabamento" />
+          <ScalarProperty Name="CapaObservacoes" ColumnName="CapaObservacoes" />
+          <ScalarProperty Name="CapaAcabamentoDaLombada" ColumnName="CapaAcabamentoDaLombada" />
+          <ScalarProperty Name="CadernoPaginas" ColumnName="CadernoPaginas" />
+          <ScalarProperty Name="CadernoAltura" ColumnName="CadernoAltura" />
+          <ScalarProperty Name="CadernoLargura" ColumnName="CadernoLargura" />
+          <ScalarProperty Name="CadernoTipo" ColumnName="CadernoTipo" />
+          <ScalarProperty Name="CadernoTipoOutros" ColumnName="CadernoTipoOutros" />
+          <ScalarProperty Name="CadernoPeso" ColumnName="CadernoPeso" />
+          <ScalarProperty Name="CadernoMioloCores" ColumnName="CadernoMioloCores" />
+          <ScalarProperty Name="CadernoMioloTipoPapel" ColumnName="CadernoMioloTipoPapel" />
+          <ScalarProperty Name="CadernoMioloGramatura" ColumnName="CadernoMioloGramatura" />
+          <ScalarProperty Name="CadernoMioloObservacoes" ColumnName="CadernoMioloObservacoes" />
+          <ScalarProperty Name="CadernoCapaCores" ColumnName="CadernoCapaCores" />
+          <ScalarProperty Name="CadernoCapaTipoPapel" ColumnName="CadernoCapaTipoPapel" />
+          <ScalarProperty Name="CadernoCapaGramatura" ColumnName="CadernoCapaGramatura" />
+          <ScalarProperty Name="CadernoCapaOrelha" ColumnName="CadernoCapaOrelha" />
+          <ScalarProperty Name="CadernoCapaAcabamento" ColumnName="CadernoCapaAcabamento" />
+          <ScalarProperty Name="CadernoCapaObservacoes" ColumnName="CadernoCapaObservacoes" />
+          <ScalarProperty Name="CadernoCapaAcabamentoDaLombada" ColumnName="CadernoCapaAcabamentoDaLombada" />
+          <ScalarProperty Name="EncarteTipo" ColumnName="EncarteTipo" />
+          <ScalarProperty Name="EncarteAcabamento" ColumnName="EncarteAcabamento" />
+          <ScalarProperty Name="EncartePapel" ColumnName="EncartePapel" />
+          <ScalarProperty Name="CaixaFormato" ColumnName="CaixaFormato" />
+          <ScalarProperty Name="CaixaAcabamento" ColumnName="CaixaAcabamento" />
+          <ScalarProperty Name="CaixaPapel" ColumnName="CaixaPapel" />
+          <ScalarProperty Name="Midia" ColumnName="Midia" />
+          <ScalarProperty Name="ObservacoesGerais" ColumnName="ObservacoesGerais" />
+          <ScalarProperty Name="Foto" ColumnName="Foto" />
+          <ScalarProperty Name="FotoCaminhoAbsoluto" ColumnName="FotoCaminhoAbsoluto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Flipbook_Acesso_Consultor">
+      <EntityTypeMapping TypeName="EBSAModel.Flipbook_Acesso_Consultor">
+        <MappingFragment StoreEntitySet="Flipbook_Acesso_Consultor">
+          <ScalarProperty Name="Usuario_Email" ColumnName="Usuario_Email" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="Data_Alteracao" ColumnName="Data_Alteracao" />
+          <ScalarProperty Name="Divulgador_Id" ColumnName="Divulgador_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUNCAOs">
+      <EntityTypeMapping TypeName="EBSAModel.FUNCAO">
+        <MappingFragment StoreEntitySet="FUNCAO">
+          <ScalarProperty Name="FCAO_ID" ColumnName="FCAO_ID" />
+          <ScalarProperty Name="FCAO_DESCRICAO" ColumnName="FCAO_DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GENERO_TEXTUAL">
+      <EntityTypeMapping TypeName="EBSAModel.GENERO_TEXTUAL">
+        <MappingFragment StoreEntitySet="GENERO_TEXTUAL">
+          <ScalarProperty Name="GTEX_ID" ColumnName="GTEX_ID" />
+          <ScalarProperty Name="GTEX_DESCRICAO" ColumnName="GTEX_DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LIVROes">
+      <EntityTypeMapping TypeName="EBSAModel.LIVRO">
+        <MappingFragment StoreEntitySet="LIVRO">
+          <ScalarProperty Name="CONTADOR" ColumnName="CONTADOR" />
+          <ScalarProperty Name="CODIGO" ColumnName="CODIGO" />
+          <ScalarProperty Name="OBRA" ColumnName="OBRA" />
+          <ScalarProperty Name="DATA" ColumnName="DATA" />
+          <ScalarProperty Name="SERIE" ColumnName="SERIE" />
+          <ScalarProperty Name="ENCADERNACAO" ColumnName="ENCADERNACAO" />
+          <ScalarProperty Name="FORMATO" ColumnName="FORMATO" />
+          <ScalarProperty Name="CORES" ColumnName="CORES" />
+          <ScalarProperty Name="PAGINAS" ColumnName="PAGINAS" />
+          <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="DSTATUS" ColumnName="DSTATUS" />
+          <ScalarProperty Name="GRAVAR" ColumnName="GRAVAR" />
+          <ScalarProperty Name="INICIO" ColumnName="INICIO" />
+          <ScalarProperty Name="PREVISAO" ColumnName="PREVISAO" />
+          <ScalarProperty Name="TERMINO" ColumnName="TERMINO" />
+          <ScalarProperty Name="OBS" ColumnName="OBS" />
+          <ScalarProperty Name="PROJETO" ColumnName="PROJETO" />
+          <ScalarProperty Name="VOLUME" ColumnName="VOLUME" />
+          <ScalarProperty Name="OPERADOR" ColumnName="OPERADOR" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="COLECAO" ColumnName="COLECAO" />
+          <ScalarProperty Name="CONDICAO" ColumnName="CONDICAO" />
+          <ScalarProperty Name="SITUACAO" ColumnName="SITUACAO" />
+          <ScalarProperty Name="COD_IMAGEM" ColumnName="COD_IMAGEM" />
+          <ScalarProperty Name="MATERIA" ColumnName="MATERIA" />
+          <ScalarProperty Name="AREA" ColumnName="AREA" />
+          <ScalarProperty Name="PAG_MP" ColumnName="PAG_MP" />
+          <ScalarProperty Name="DT_INC" ColumnName="DT_INC" />
+          <ScalarProperty Name="OPERADOR_ALT" ColumnName="OPERADOR_ALT" />
+          <ScalarProperty Name="DT_ALT" ColumnName="DT_ALT" />
+          <ScalarProperty Name="DATAD" ColumnName="DATAD" />
+          <ScalarProperty Name="DATAE" ColumnName="DATAE" />
+          <ScalarProperty Name="INFGERAL" ColumnName="INFGERAL" />
+          <ScalarProperty Name="DVD" ColumnName="DVD" />
+          <ScalarProperty Name="OBRA_ANTIGA" ColumnName="OBRA_ANTIGA" />
+          <ScalarProperty Name="PSEUDONIMO" ColumnName="PSEUDONIMO" />
+          <ScalarProperty Name="NM_EDITORA" ColumnName="NM_EDITORA" />
+          <ScalarProperty Name="TITULO" ColumnName="TITULO" />
+          <ScalarProperty Name="TITULO_ORIGINAL" ColumnName="TITULO_ORIGINAL" />
+          <ScalarProperty Name="ANO_PUB" ColumnName="ANO_PUB" />
+          <ScalarProperty Name="COLABORADOR" ColumnName="COLABORADOR" />
+          <ScalarProperty Name="TEXT_COLAB" ColumnName="TEXT_COLAB" />
+          <ScalarProperty Name="EDICAO" ColumnName="EDICAO" />
+          <ScalarProperty Name="REIMP" ColumnName="REIMP" />
+          <ScalarProperty Name="CO_EDICAO" ColumnName="CO_EDICAO" />
+          <ScalarProperty Name="TIT_SC" ColumnName="TIT_SC" />
+          <ScalarProperty Name="NUM_PUB" ColumnName="NUM_PUB" />
+          <ScalarProperty Name="P_PRECEDE" ColumnName="P_PRECEDE" />
+          <ScalarProperty Name="INC_BIB" ColumnName="INC_BIB" />
+          <ScalarProperty Name="INC_APEN" ColumnName="INC_APEN" />
+          <ScalarProperty Name="TIT_ANT" ColumnName="TIT_ANT" />
+          <ScalarProperty Name="TIT_CON" ColumnName="TIT_CON" />
+          <ScalarProperty Name="TIT_SUP" ColumnName="TIT_SUP" />
+          <ScalarProperty Name="TIT_OUT" ColumnName="TIT_OUT" />
+          <ScalarProperty Name="SUPLEM" ColumnName="SUPLEM" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="P_CHAVE" ColumnName="P_CHAVE" />
+          <ScalarProperty Name="CENTRO_CUSTO" ColumnName="CENTRO_CUSTO" />
+          <ScalarProperty Name="USER_TROCA_CODIGO" ColumnName="USER_TROCA_CODIGO" />
+          <ScalarProperty Name="DATA_TROCA_CODIGO" ColumnName="DATA_TROCA_CODIGO" />
+          <ScalarProperty Name="PRE_TRIAGEM" ColumnName="PRE_TRIAGEM" />
+          <ScalarProperty Name="TRIAGEM" ColumnName="TRIAGEM" />
+          <ScalarProperty Name="PROVAS" ColumnName="PROVAS" />
+          <ScalarProperty Name="NOVA_REFORMULADA" ColumnName="NOVA_REFORMULADA" />
+          <ScalarProperty Name="REFORMULADA" ColumnName="REFORMULADA" />
+          <ScalarProperty Name="ANO_PROD" ColumnName="ANO_PROD" />
+          <ScalarProperty Name="INICIO2" ColumnName="INICIO2" />
+          <ScalarProperty Name="PREVISAO2" ColumnName="PREVISAO2" />
+          <ScalarProperty Name="TERMINO2" ColumnName="TERMINO2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_Flipbook_Consultor">
+      <EntityTypeMapping TypeName="EBSAModel.Log_Flipbook_Consultor">
+        <MappingFragment StoreEntitySet="Log_Flipbook_Consultor">
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="Usuario_Email" ColumnName="Usuario_Email" />
+          <ScalarProperty Name="Data_Inclusao" ColumnName="Data_Inclusao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOGS_A">
+      <EntityTypeMapping TypeName="EBSAModel.LOGS_A">
+        <MappingFragment StoreEntitySet="LOGS_A">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_TIPO_LOG" ColumnName="ID_TIPO_LOG" />
+          <ScalarProperty Name="USUARIO" ColumnName="USUARIO" />
+          <ScalarProperty Name="DATA_LOG" ColumnName="DATA_LOG" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="IpAdress" ColumnName="IpAdress" />
+          <ScalarProperty Name="ID_TIPO_SISTEMA" ColumnName="ID_TIPO_SISTEMA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MIDIAs">
+      <EntityTypeMapping TypeName="EBSAModel.MIDIA">
+        <MappingFragment StoreEntitySet="MIDIA">
+          <ScalarProperty Name="MIDI_ID" ColumnName="MIDI_ID" />
+          <ScalarProperty Name="MIDI_DESCRICAO" ColumnName="MIDI_DESCRICAO" />
+          <ScalarProperty Name="MIDI_UNIDVENDA" ColumnName="MIDI_UNIDVENDA" />
+          <ScalarProperty Name="MIDI_PLAT" ColumnName="MIDI_PLAT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Planilha1_">
+      <EntityTypeMapping TypeName="EBSAModel.Planilha1_">
+        <MappingFragment StoreEntitySet="Planilha1$">
+          <ScalarProperty Name="CODIGO" ColumnName="CODIGO" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="TITULO" ColumnName="TITULO" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+          <ScalarProperty Name="SEGMENTO" ColumnName="SEGMENTO" />
+          <ScalarProperty Name="ANO" ColumnName="ANO" />
+          <ScalarProperty Name="COMPOSICAO" ColumnName="COMPOSICAO" />
+          <ScalarProperty Name="VERSAO" ColumnName="VERSAO" />
+          <ScalarProperty Name="EDICAO" ColumnName="EDICAO" />
+          <ScalarProperty Name="COLECAO" ColumnName="COLECAO" />
+          <ScalarProperty Name="DISCIPLINA" ColumnName="DISCIPLINA" />
+          <ScalarProperty Name="SUPORTE" ColumnName="SUPORTE" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="PRECO" ColumnName="PRECO" />
+          <ScalarProperty Name="SELO" ColumnName="SELO" />
+          <ScalarProperty Name="PROGRAMA" ColumnName="PROGRAMA" />
+          <ScalarProperty Name="ASSUNTO" ColumnName="ASSUNTO" />
+          <ScalarProperty Name="PUBLICACAO" ColumnName="PUBLICACAO" />
+          <ScalarProperty Name="MIDIA" ColumnName="MIDIA" />
+          <ScalarProperty Name="PESO" ColumnName="PESO" />
+          <ScalarProperty Name="FORMATO" ColumnName="FORMATO" />
+          <ScalarProperty Name="PAGINAS" ColumnName="PAGINAS" />
+          <ScalarProperty Name="B1_XCLASFI" ColumnName="B1_XCLASFI" />
+          <ScalarProperty Name="R_E_C_N_O_" ColumnName="R_E_C_N_O_" />
+          <ScalarProperty Name="B1_UM" ColumnName="B1_UM" />
+          <ScalarProperty Name="TEMA" ColumnName="TEMA" />
+          <ScalarProperty Name="SINOPSE" ColumnName="SINOPSE" />
+          <ScalarProperty Name="PREMIACAO" ColumnName="PREMIACAO" />
+          <ScalarProperty Name="ESTOQUE_SP" ColumnName="ESTOQUE_SP" />
+          <ScalarProperty Name="ESTOQUE_SP2" ColumnName="ESTOQUE_SP2" />
+          <ScalarProperty Name="ESTOQUE_GUARULHOS" ColumnName="ESTOQUE_GUARULHOS" />
+          <ScalarProperty Name="ESTOQUE_PE" ColumnName="ESTOQUE_PE" />
+          <ScalarProperty Name="ESTOQUE_GO" ColumnName="ESTOQUE_GO" />
+          <ScalarProperty Name="ESTOQUE_BA" ColumnName="ESTOQUE_BA" />
+          <ScalarProperty Name="ESTOQUE_AM" ColumnName="ESTOQUE_AM" />
+          <ScalarProperty Name="ESTOQUE_RN" ColumnName="ESTOQUE_RN" />
+          <ScalarProperty Name="ESTOQUE_RJ" ColumnName="ESTOQUE_RJ" />
+          <ScalarProperty Name="F39" ColumnName="F39" />
+          <ScalarProperty Name="F40" ColumnName="F40" />
+          <ScalarProperty Name="F41" ColumnName="F41" />
+          <ScalarProperty Name="F42" ColumnName="F42" />
+          <ScalarProperty Name="F43" ColumnName="F43" />
+          <ScalarProperty Name="F44" ColumnName="F44" />
+          <ScalarProperty Name="F45" ColumnName="F45" />
+          <ScalarProperty Name="F46" ColumnName="F46" />
+          <ScalarProperty Name="F47" ColumnName="F47" />
+          <ScalarProperty Name="F48" ColumnName="F48" />
+          <ScalarProperty Name="F49" ColumnName="F49" />
+          <ScalarProperty Name="F50" ColumnName="F50" />
+          <ScalarProperty Name="F51" ColumnName="F51" />
+          <ScalarProperty Name="F52" ColumnName="F52" />
+          <ScalarProperty Name="F53" ColumnName="F53" />
+          <ScalarProperty Name="F54" ColumnName="F54" />
+          <ScalarProperty Name="F55" ColumnName="F55" />
+          <ScalarProperty Name="F56" ColumnName="F56" />
+          <ScalarProperty Name="F57" ColumnName="F57" />
+          <ScalarProperty Name="F58" ColumnName="F58" />
+          <ScalarProperty Name="F106" ColumnName="F106" />
+          <ScalarProperty Name="F107" ColumnName="F107" />
+          <ScalarProperty Name="F108" ColumnName="F108" />
+          <ScalarProperty Name="F109" ColumnName="F109" />
+          <ScalarProperty Name="F110" ColumnName="F110" />
+          <ScalarProperty Name="F111" ColumnName="F111" />
+          <ScalarProperty Name="F112" ColumnName="F112" />
+          <ScalarProperty Name="F113" ColumnName="F113" />
+          <ScalarProperty Name="F114" ColumnName="F114" />
+          <ScalarProperty Name="F115" ColumnName="F115" />
+          <ScalarProperty Name="F116" ColumnName="F116" />
+          <ScalarProperty Name="F117" ColumnName="F117" />
+          <ScalarProperty Name="F118" ColumnName="F118" />
+          <ScalarProperty Name="F119" ColumnName="F119" />
+          <ScalarProperty Name="F120" ColumnName="F120" />
+          <ScalarProperty Name="F121" ColumnName="F121" />
+          <ScalarProperty Name="F122" ColumnName="F122" />
+          <ScalarProperty Name="F123" ColumnName="F123" />
+          <ScalarProperty Name="F124" ColumnName="F124" />
+          <ScalarProperty Name="F125" ColumnName="F125" />
+          <ScalarProperty Name="F126" ColumnName="F126" />
+          <ScalarProperty Name="F127" ColumnName="F127" />
+          <ScalarProperty Name="F128" ColumnName="F128" />
+          <ScalarProperty Name="F129" ColumnName="F129" />
+          <ScalarProperty Name="F130" ColumnName="F130" />
+          <ScalarProperty Name="F131" ColumnName="F131" />
+          <ScalarProperty Name="F132" ColumnName="F132" />
+          <ScalarProperty Name="F133" ColumnName="F133" />
+          <ScalarProperty Name="F134" ColumnName="F134" />
+          <ScalarProperty Name="F135" ColumnName="F135" />
+          <ScalarProperty Name="F136" ColumnName="F136" />
+          <ScalarProperty Name="F137" ColumnName="F137" />
+          <ScalarProperty Name="F138" ColumnName="F138" />
+          <ScalarProperty Name="F139" ColumnName="F139" />
+          <ScalarProperty Name="F140" ColumnName="F140" />
+          <ScalarProperty Name="F141" ColumnName="F141" />
+          <ScalarProperty Name="F142" ColumnName="F142" />
+          <ScalarProperty Name="F143" ColumnName="F143" />
+          <ScalarProperty Name="F144" ColumnName="F144" />
+          <ScalarProperty Name="F145" ColumnName="F145" />
+          <ScalarProperty Name="F146" ColumnName="F146" />
+          <ScalarProperty Name="F147" ColumnName="F147" />
+          <ScalarProperty Name="F148" ColumnName="F148" />
+          <ScalarProperty Name="F149" ColumnName="F149" />
+          <ScalarProperty Name="F150" ColumnName="F150" />
+          <ScalarProperty Name="F151" ColumnName="F151" />
+          <ScalarProperty Name="F152" ColumnName="F152" />
+          <ScalarProperty Name="F153" ColumnName="F153" />
+          <ScalarProperty Name="F154" ColumnName="F154" />
+          <ScalarProperty Name="F155" ColumnName="F155" />
+          <ScalarProperty Name="F156" ColumnName="F156" />
+          <ScalarProperty Name="F157" ColumnName="F157" />
+          <ScalarProperty Name="F158" ColumnName="F158" />
+          <ScalarProperty Name="F159" ColumnName="F159" />
+          <ScalarProperty Name="F160" ColumnName="F160" />
+          <ScalarProperty Name="F161" ColumnName="F161" />
+          <ScalarProperty Name="F162" ColumnName="F162" />
+          <ScalarProperty Name="F163" ColumnName="F163" />
+          <ScalarProperty Name="F164" ColumnName="F164" />
+          <ScalarProperty Name="F165" ColumnName="F165" />
+          <ScalarProperty Name="F166" ColumnName="F166" />
+          <ScalarProperty Name="F167" ColumnName="F167" />
+          <ScalarProperty Name="F168" ColumnName="F168" />
+          <ScalarProperty Name="F169" ColumnName="F169" />
+          <ScalarProperty Name="F170" ColumnName="F170" />
+          <ScalarProperty Name="F171" ColumnName="F171" />
+          <ScalarProperty Name="F172" ColumnName="F172" />
+          <ScalarProperty Name="F173" ColumnName="F173" />
+          <ScalarProperty Name="F174" ColumnName="F174" />
+          <ScalarProperty Name="F175" ColumnName="F175" />
+          <ScalarProperty Name="F176" ColumnName="F176" />
+          <ScalarProperty Name="F177" ColumnName="F177" />
+          <ScalarProperty Name="F178" ColumnName="F178" />
+          <ScalarProperty Name="F179" ColumnName="F179" />
+          <ScalarProperty Name="F180" ColumnName="F180" />
+          <ScalarProperty Name="F181" ColumnName="F181" />
+          <ScalarProperty Name="F182" ColumnName="F182" />
+          <ScalarProperty Name="F183" ColumnName="F183" />
+          <ScalarProperty Name="F184" ColumnName="F184" />
+          <ScalarProperty Name="F185" ColumnName="F185" />
+          <ScalarProperty Name="F186" ColumnName="F186" />
+          <ScalarProperty Name="F187" ColumnName="F187" />
+          <ScalarProperty Name="F188" ColumnName="F188" />
+          <ScalarProperty Name="F189" ColumnName="F189" />
+          <ScalarProperty Name="F190" ColumnName="F190" />
+          <ScalarProperty Name="F191" ColumnName="F191" />
+          <ScalarProperty Name="F192" ColumnName="F192" />
+          <ScalarProperty Name="F193" ColumnName="F193" />
+          <ScalarProperty Name="F194" ColumnName="F194" />
+          <ScalarProperty Name="F195" ColumnName="F195" />
+          <ScalarProperty Name="F196" ColumnName="F196" />
+          <ScalarProperty Name="F197" ColumnName="F197" />
+          <ScalarProperty Name="F198" ColumnName="F198" />
+          <ScalarProperty Name="F199" ColumnName="F199" />
+          <ScalarProperty Name="F200" ColumnName="F200" />
+          <ScalarProperty Name="F201" ColumnName="F201" />
+          <ScalarProperty Name="F202" ColumnName="F202" />
+          <ScalarProperty Name="F203" ColumnName="F203" />
+          <ScalarProperty Name="F204" ColumnName="F204" />
+          <ScalarProperty Name="F205" ColumnName="F205" />
+          <ScalarProperty Name="F206" ColumnName="F206" />
+          <ScalarProperty Name="F207" ColumnName="F207" />
+          <ScalarProperty Name="F208" ColumnName="F208" />
+          <ScalarProperty Name="F209" ColumnName="F209" />
+          <ScalarProperty Name="F210" ColumnName="F210" />
+          <ScalarProperty Name="F211" ColumnName="F211" />
+          <ScalarProperty Name="F212" ColumnName="F212" />
+          <ScalarProperty Name="F213" ColumnName="F213" />
+          <ScalarProperty Name="F214" ColumnName="F214" />
+          <ScalarProperty Name="F215" ColumnName="F215" />
+          <ScalarProperty Name="F216" ColumnName="F216" />
+          <ScalarProperty Name="F217" ColumnName="F217" />
+          <ScalarProperty Name="F218" ColumnName="F218" />
+          <ScalarProperty Name="F219" ColumnName="F219" />
+          <ScalarProperty Name="F220" ColumnName="F220" />
+          <ScalarProperty Name="F221" ColumnName="F221" />
+          <ScalarProperty Name="F222" ColumnName="F222" />
+          <ScalarProperty Name="F223" ColumnName="F223" />
+          <ScalarProperty Name="F224" ColumnName="F224" />
+          <ScalarProperty Name="F225" ColumnName="F225" />
+          <ScalarProperty Name="F226" ColumnName="F226" />
+          <ScalarProperty Name="F227" ColumnName="F227" />
+          <ScalarProperty Name="F228" ColumnName="F228" />
+          <ScalarProperty Name="F229" ColumnName="F229" />
+          <ScalarProperty Name="F230" ColumnName="F230" />
+          <ScalarProperty Name="F231" ColumnName="F231" />
+          <ScalarProperty Name="F232" ColumnName="F232" />
+          <ScalarProperty Name="F233" ColumnName="F233" />
+          <ScalarProperty Name="F234" ColumnName="F234" />
+          <ScalarProperty Name="F235" ColumnName="F235" />
+          <ScalarProperty Name="F236" ColumnName="F236" />
+          <ScalarProperty Name="F237" ColumnName="F237" />
+          <ScalarProperty Name="F238" ColumnName="F238" />
+          <ScalarProperty Name="F239" ColumnName="F239" />
+          <ScalarProperty Name="F240" ColumnName="F240" />
+          <ScalarProperty Name="F241" ColumnName="F241" />
+          <ScalarProperty Name="F242" ColumnName="F242" />
+          <ScalarProperty Name="F243" ColumnName="F243" />
+          <ScalarProperty Name="F244" ColumnName="F244" />
+          <ScalarProperty Name="F245" ColumnName="F245" />
+          <ScalarProperty Name="F246" ColumnName="F246" />
+          <ScalarProperty Name="F247" ColumnName="F247" />
+          <ScalarProperty Name="F248" ColumnName="F248" />
+          <ScalarProperty Name="F249" ColumnName="F249" />
+          <ScalarProperty Name="F250" ColumnName="F250" />
+          <ScalarProperty Name="F251" ColumnName="F251" />
+          <ScalarProperty Name="F252" ColumnName="F252" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUTO_ASSUNTO">
+      <EntityTypeMapping TypeName="EBSAModel.PRODUTO_ASSUNTO">
+        <MappingFragment StoreEntitySet="PRODUTO_ASSUNTO">
+          <ScalarProperty Name="PASS_ID" ColumnName="PASS_ID" />
+          <ScalarProperty Name="PASS_PROD" ColumnName="PASS_PROD" />
+          <ScalarProperty Name="PASS_ASSU" ColumnName="PASS_ASSU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUTO_BKP08012020">
+      <EntityTypeMapping TypeName="EBSAModel.PRODUTO_BKP08012020">
+        <MappingFragment StoreEntitySet="PRODUTO_BKP08012020">
+          <ScalarProperty Name="PROD_ID" ColumnName="PROD_ID" />
+          <ScalarProperty Name="PROD_CDIS" ColumnName="PROD_CDIS" />
+          <ScalarProperty Name="PROD_TEMA" ColumnName="PROD_TEMA" />
+          <ScalarProperty Name="PROD_DISC" ColumnName="PROD_DISC" />
+          <ScalarProperty Name="PROD_MERCADO" ColumnName="PROD_MERCADO" />
+          <ScalarProperty Name="PROD_PROGRAMA" ColumnName="PROD_PROGRAMA" />
+          <ScalarProperty Name="PROD_TIPO" ColumnName="PROD_TIPO" />
+          <ScalarProperty Name="PROD_SELO" ColumnName="PROD_SELO" />
+          <ScalarProperty Name="PROD_SEGM" ColumnName="PROD_SEGM" />
+          <ScalarProperty Name="PROD_AEDU" ColumnName="PROD_AEDU" />
+          <ScalarProperty Name="PROD_COMP" ColumnName="PROD_COMP" />
+          <ScalarProperty Name="PROD_FAIXAETARIA" ColumnName="PROD_FAIXAETARIA" />
+          <ScalarProperty Name="PROD_ASSU" ColumnName="PROD_ASSU" />
+          <ScalarProperty Name="PROD_GTEX" ColumnName="PROD_GTEX" />
+          <ScalarProperty Name="PROD_PREMIACAO" ColumnName="PROD_PREMIACAO" />
+          <ScalarProperty Name="PROD_VERSAO" ColumnName="PROD_VERSAO" />
+          <ScalarProperty Name="PROD_COLE" ColumnName="PROD_COLE" />
+          <ScalarProperty Name="PROD_TITULO" ColumnName="PROD_TITULO" />
+          <ScalarProperty Name="PROD_EDICAO" ColumnName="PROD_EDICAO" />
+          <ScalarProperty Name="PROD_MIDI" ColumnName="PROD_MIDI" />
+          <ScalarProperty Name="PROD_PAGINAS" ColumnName="PROD_PAGINAS" />
+          <ScalarProperty Name="PROD_PLAT" ColumnName="PROD_PLAT" />
+          <ScalarProperty Name="PROD_FORALTURA" ColumnName="PROD_FORALTURA" />
+          <ScalarProperty Name="PROD_FORLARGURA" ColumnName="PROD_FORLARGURA" />
+          <ScalarProperty Name="PROD_PESO" ColumnName="PROD_PESO" />
+          <ScalarProperty Name="PROD_PUBLICACAO" ColumnName="PROD_PUBLICACAO" />
+          <ScalarProperty Name="PROD_ISBN" ColumnName="PROD_ISBN" />
+          <ScalarProperty Name="PROD_STATUS" ColumnName="PROD_STATUS" />
+          <ScalarProperty Name="PROD_CODBARRAS" ColumnName="PROD_CODBARRAS" />
+          <ScalarProperty Name="PROD_SINOPSE" ColumnName="PROD_SINOPSE" />
+          <ScalarProperty Name="PROD_PRECO" ColumnName="PROD_PRECO" />
+          <ScalarProperty Name="PROD_EBSA" ColumnName="PROD_EBSA" />
+          <ScalarProperty Name="PROD_UNIDADE" ColumnName="PROD_UNIDADE" />
+          <ScalarProperty Name="PROD_CODPROT" ColumnName="PROD_CODPROT" />
+          <ScalarProperty Name="PROD_PUBLICADO" ColumnName="PROD_PUBLICADO" />
+          <ScalarProperty Name="PROD_DATAPUBLICACAO" ColumnName="PROD_DATAPUBLICACAO" />
+          <ScalarProperty Name="PROD_ORIGEM" ColumnName="PROD_ORIGEM" />
+          <ScalarProperty Name="EXCLUIDO" ColumnName="EXCLUIDO" />
+          <ScalarProperty Name="PROD_TIPO_PRODUTO" ColumnName="PROD_TIPO_PRODUTO" />
+          <ScalarProperty Name="PROD_UNIDADE_MEDIDA" ColumnName="PROD_UNIDADE_MEDIDA" />
+          <ScalarProperty Name="ID_GRUPO" ColumnName="ID_GRUPO" />
+          <ScalarProperty Name="ID_SEGMENTO" ColumnName="ID_SEGMENTO" />
+          <ScalarProperty Name="PROD_VIDEO" ColumnName="PROD_VIDEO" />
+          <ScalarProperty Name="PROD_NOME_CAPA" ColumnName="PROD_NOME_CAPA" />
+          <ScalarProperty Name="ID_SELO" ColumnName="ID_SELO" />
+          <ScalarProperty Name="ANO_PROGRAMA" ColumnName="ANO_PROGRAMA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUTO_DATAESPECIAL">
+      <EntityTypeMapping TypeName="EBSAModel.PRODUTO_DATAESPECIAL">
+        <MappingFragment StoreEntitySet="PRODUTO_DATAESPECIAL">
+          <ScalarProperty Name="PDES_ID" ColumnName="PDES_ID" />
+          <ScalarProperty Name="PDES_DAES" ColumnName="PDES_DAES" />
+          <ScalarProperty Name="PDES_PROD" ColumnName="PDES_PROD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUTO_DOCUMENTO">
+      <EntityTypeMapping TypeName="EBSAModel.PRODUTO_DOCUMENTO">
+        <MappingFragment StoreEntitySet="PRODUTO_DOCUMENTO">
+          <ScalarProperty Name="PDOC_ID" ColumnName="PDOC_ID" />
+          <ScalarProperty Name="PDOC_DESCRICAO" ColumnName="PDOC_DESCRICAO" />
+          <ScalarProperty Name="PDOC_DOCTO" ColumnName="PDOC_DOCTO" />
+          <ScalarProperty Name="PDOC_AUTO" ColumnName="PDOC_AUTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUTO_ESPTECNICA">
+      <EntityTypeMapping TypeName="EBSAModel.PRODUTO_ESPTECNICA">
+        <MappingFragment StoreEntitySet="PRODUTO_ESPTECNICA">
+          <ScalarProperty Name="PESP_ID" ColumnName="PESP_ID" />
+          <ScalarProperty Name="PESP_ETEC" ColumnName="PESP_ETEC" />
+          <ScalarProperty Name="PESP_PROD" ColumnName="PESP_PROD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUTO_FUNCAO">
+      <EntityTypeMapping TypeName="EBSAModel.PRODUTO_FUNCAO">
+        <MappingFragment StoreEntitySet="PRODUTO_FUNCAO">
+          <ScalarProperty Name="PFUN_ID" ColumnName="PFUN_ID" />
+          <ScalarProperty Name="PFUN_FCAO" ColumnName="PFUN_FCAO" />
+          <ScalarProperty Name="PFUN_AUTO" ColumnName="PFUN_AUTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUTO_TEMA">
+      <EntityTypeMapping TypeName="EBSAModel.PRODUTO_TEMA">
+        <MappingFragment StoreEntitySet="PRODUTO_TEMA">
+          <ScalarProperty Name="PROT_ID" ColumnName="PROT_ID" />
+          <ScalarProperty Name="PROT_TEMA" ColumnName="PROT_TEMA" />
+          <ScalarProperty Name="PROT_PROD" ColumnName="PROT_PROD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUTO_TEMATRANS">
+      <EntityTypeMapping TypeName="EBSAModel.PRODUTO_TEMATRANS">
+        <MappingFragment StoreEntitySet="PRODUTO_TEMATRANS">
+          <ScalarProperty Name="PTEM_ID" ColumnName="PTEM_ID" />
+          <ScalarProperty Name="PTEM_TEMA" ColumnName="PTEM_TEMA" />
+          <ScalarProperty Name="PTEM_PROD" ColumnName="PTEM_PROD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_RELATORIO_ELVIS">
+      <EntityTypeMapping TypeName="EBSAModel.TB_RELATORIO_ELVIS">
+        <MappingFragment StoreEntitySet="TB_RELATORIO_ELVIS">
+          <ScalarProperty Name="ID_LIVRO" ColumnName="ID_LIVRO" />
+          <ScalarProperty Name="PARTE_LIVRO" ColumnName="PARTE_LIVRO" />
+          <ScalarProperty Name="QTD_TOTAL" ColumnName="QTD_TOTAL" />
+          <ScalarProperty Name="QTD_APROVADA" ColumnName="QTD_APROVADA" />
+          <ScalarProperty Name="QTD_FINALIZADA" ColumnName="QTD_FINALIZADA" />
+          <ScalarProperty Name="QTD_CAIU" ColumnName="QTD_CAIU" />
+          <ScalarProperty Name="QTD_REPROVADA" ColumnName="QTD_REPROVADA" />
+          <ScalarProperty Name="QTD_AGUARDANDO_APROVACAO" ColumnName="QTD_AGUARDANDO_APROVACAO" />
+          <ScalarProperty Name="QTD_EM_PESQUISA" ColumnName="QTD_EM_PESQUISA" />
+          <ScalarProperty Name="QTD_APROVACAO_ORCAMENTO" ColumnName="QTD_APROVACAO_ORCAMENTO" />
+          <ScalarProperty Name="DT_CADASTRO" ColumnName="DT_CADASTRO" />
+          <ScalarProperty Name="PORCENTAGEM_FINALIZADA" ColumnName="PORCENTAGEM_FINALIZADA" />
+          <ScalarProperty Name="QTD_OUTROS_STATUS" ColumnName="QTD_OUTROS_STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TEMAs">
+      <EntityTypeMapping TypeName="EBSAModel.TEMA">
+        <MappingFragment StoreEntitySet="TEMA">
+          <ScalarProperty Name="TEMA_ID" ColumnName="TEMA_ID" />
+          <ScalarProperty Name="TEMA_DESCRICAO" ColumnName="TEMA_DESCRICAO" />
+          <ScalarProperty Name="TEMA_TIPO" ColumnName="TEMA_TIPO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIPOes">
+      <EntityTypeMapping TypeName="EBSAModel.TIPO">
+        <MappingFragment StoreEntitySet="TIPO">
+          <ScalarProperty Name="TIPO_ID" ColumnName="TIPO_ID" />
+          <ScalarProperty Name="TIPO_DESCRICAO" ColumnName="TIPO_DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIPO_ESPECIFICACAO">
+      <EntityTypeMapping TypeName="EBSAModel.TIPO_ESPECIFICACAO">
+        <MappingFragment StoreEntitySet="TIPO_ESPECIFICACAO">
+          <ScalarProperty Name="TESP_ID" ColumnName="TESP_ID" />
+          <ScalarProperty Name="TESP_DESCRICAO" ColumnName="TESP_DESCRICAO" />
+          <ScalarProperty Name="TESP_ETEC" ColumnName="TESP_ETEC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIPO_LOG">
+      <EntityTypeMapping TypeName="EBSAModel.TIPO_LOG">
+        <MappingFragment StoreEntitySet="TIPO_LOG">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIPO_SISTEMA">
+      <EntityTypeMapping TypeName="EBSAModel.TIPO_SISTEMA">
+        <MappingFragment StoreEntitySet="TIPO_SISTEMA">
+          <ScalarProperty Name="ID_TIPO_SISTEMA" ColumnName="ID_TIPO_SISTEMA" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="DOMINIO" ColumnName="DOMINIO" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TMPDATAPRODUCTs">
+      <EntityTypeMapping TypeName="EBSAModel.TMPDATAPRODUCT">
+        <MappingFragment StoreEntitySet="TMPDATAPRODUCT">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Id_Usuario" ColumnName="Id_Usuario" />
+          <ScalarProperty Name="Prod_id" ColumnName="Prod_id" />
+          <ScalarProperty Name="IdRegistro" ColumnName="IdRegistro" />
+          <ScalarProperty Name="LabelRegistro" ColumnName="LabelRegistro" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="EBSAModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="EBSAModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="EBSAModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="EBSAModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="EBSAModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="EBSAModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="EBSAModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_I_FICHATECNICA" FunctionName="EBSAModel.Store.SP_I_FICHATECNICA" />
+    <FunctionImportMapping FunctionImportName="SP_I_LOG" FunctionName="EBSAModel.Store.SP_I_LOG" />
+    <FunctionImportMapping FunctionImportName="SP_I_LOG___" FunctionName="EBSAModel.Store.SP_I_LOG___" />
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="EBSAModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="SP_S_OBTER_FICHATECNICA" FunctionName="EBSAModel.Store.SP_S_OBTER_FICHATECNICA">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="EBSAModel.SP_S_OBTER_FICHATECNICA_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Prod_id" ColumnName="Prod_id" />
+          <ScalarProperty Name="Paginas" ColumnName="Paginas" />
+          <ScalarProperty Name="FormatoAlura" ColumnName="FormatoAlura" />
+          <ScalarProperty Name="FormatoLargura" ColumnName="FormatoLargura" />
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+          <ScalarProperty Name="MioloCores" ColumnName="MioloCores" />
+          <ScalarProperty Name="MioloTipoPapel" ColumnName="MioloTipoPapel" />
+          <ScalarProperty Name="MioloGramatura" ColumnName="MioloGramatura" />
+          <ScalarProperty Name="MioloObservacoes" ColumnName="MioloObservacoes" />
+          <ScalarProperty Name="CapaCores" ColumnName="CapaCores" />
+          <ScalarProperty Name="CapaTipoPapel" ColumnName="CapaTipoPapel" />
+          <ScalarProperty Name="CapaGramatura" ColumnName="CapaGramatura" />
+          <ScalarProperty Name="CapaOrelha" ColumnName="CapaOrelha" />
+          <ScalarProperty Name="CapaAcabamento" ColumnName="CapaAcabamento" />
+          <ScalarProperty Name="CapaObservacoes" ColumnName="CapaObservacoes" />
+          <ScalarProperty Name="CapaAcabamentoDaLombada" ColumnName="CapaAcabamentoDaLombada" />
+          <ScalarProperty Name="CadernoPaginas" ColumnName="CadernoPaginas" />
+          <ScalarProperty Name="CadernoAltura" ColumnName="CadernoAltura" />
+          <ScalarProperty Name="CadernoLargura" ColumnName="CadernoLargura" />
+          <ScalarProperty Name="CadernoTipo" ColumnName="CadernoTipo" />
+          <ScalarProperty Name="CadernoTipoOutros" ColumnName="CadernoTipoOutros" />
+          <ScalarProperty Name="CadernoPeso" ColumnName="CadernoPeso" />
+          <ScalarProperty Name="CadernoMioloCores" ColumnName="CadernoMioloCores" />
+          <ScalarProperty Name="CadernoMioloTipoPapel" ColumnName="CadernoMioloTipoPapel" />
+          <ScalarProperty Name="CadernoMioloGramatura" ColumnName="CadernoMioloGramatura" />
+          <ScalarProperty Name="CadernoMioloObservacoes" ColumnName="CadernoMioloObservacoes" />
+          <ScalarProperty Name="CadernoCapaCores" ColumnName="CadernoCapaCores" />
+          <ScalarProperty Name="CadernoCapaTipoPapel" ColumnName="CadernoCapaTipoPapel" />
+          <ScalarProperty Name="CadernoCapaGramatura" ColumnName="CadernoCapaGramatura" />
+          <ScalarProperty Name="CadernoCapaOrelha" ColumnName="CadernoCapaOrelha" />
+          <ScalarProperty Name="CadernoCapaAcabamento" ColumnName="CadernoCapaAcabamento" />
+          <ScalarProperty Name="CadernoCapaObservacoes" ColumnName="CadernoCapaObservacoes" />
+          <ScalarProperty Name="CadernoCapaAcabamentoDaLombada" ColumnName="CadernoCapaAcabamentoDaLombada" />
+          <ScalarProperty Name="EncarteTipo" ColumnName="EncarteTipo" />
+          <ScalarProperty Name="EncarteAcabamento" ColumnName="EncarteAcabamento" />
+          <ScalarProperty Name="EncartePapel" ColumnName="EncartePapel" />
+          <ScalarProperty Name="CaixaFormato" ColumnName="CaixaFormato" />
+          <ScalarProperty Name="CaixaAcabamento" ColumnName="CaixaAcabamento" />
+          <ScalarProperty Name="CaixaPapel" ColumnName="CaixaPapel" />
+          <ScalarProperty Name="Midia" ColumnName="Midia" />
+          <ScalarProperty Name="ObservacoesGerais" ColumnName="ObservacoesGerais" />
+          <ScalarProperty Name="Foto" ColumnName="Foto" />
+          <ScalarProperty Name="FotoCaminhoAbsoluto" ColumnName="FotoCaminhoAbsoluto" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_S_OBTER_LOGS" FunctionName="EBSAModel.Store.SP_S_OBTER_LOGS">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="EBSAModel.SP_S_OBTER_LOGS_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="DATA_LOG" ColumnName="DATA_LOG" />
+          <ScalarProperty Name="ID_TIPO_LOG" ColumnName="ID_TIPO_LOG" />
+          <ScalarProperty Name="ID_TIPO_SISTEMA" ColumnName="ID_TIPO_SISTEMA" />
+          <ScalarProperty Name="IpAdress" ColumnName="IpAdress" />
+          <ScalarProperty Name="USUARIO" ColumnName="USUARIO" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_U_FICHATECNICA" FunctionName="EBSAModel.Store.SP_U_FICHATECNICA" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="EBSAModel.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>
